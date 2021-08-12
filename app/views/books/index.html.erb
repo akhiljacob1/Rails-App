@@ -4,7 +4,7 @@
 <div class="row row-cols-1 row-cols-md-6 g-4">
   <% @books.each do |book| %>
     <div class="col">
-      <a class="card-link" href="<%= new_bookreview_path(book: @book.id) %>">
+      <a class="card-link" href="<%= new_bookreview_path(book: book.title) %>">
         <div class="card h-100">
           <div class="image-container">
             <img src="<%= book.image_link %>" class="card-img-top" alt="...">

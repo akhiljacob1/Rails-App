@@ -7685,3 +7685,216 @@ ActionView::Template::Error (undefined method `id' for nil:NilClass):
   
 app/views/books/index.html.erb:7
 app/views/books/index.html.erb:5
+Started GET "/new?q=javascript&commit=Search" for ::1 at 2021-08-12 18:42:09 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"javascript", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3781)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3851)
+Completed 500 Internal Server Error in 607ms (ActiveRecord: 0.0ms | Allocations: 6581)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    4: <div class="row row-cols-1 row-cols-md-6 g-4">
+    5:   <% @books.each do |book| %>
+    6:     <div class="col">
+    7:       <a class="card-link" href="<%= new_bookreview_path(book: @book.title) %>">
+    8:         <div class="card h-100">
+    9:           <div class="image-container">
+   10:             <img src="<%= book.image_link %>" class="card-img-top" alt="...">
+  
+app/views/books/index.html.erb:7
+app/views/books/index.html.erb:5
+Started GET "/" for ::1 at 2021-08-12 18:42:13 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:3
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.8ms | Allocations: 6209)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 10000)
+Completed 200 OK in 20ms (Views: 15.7ms | ActiveRecord: 0.4ms | Allocations: 11010)
+
+
+Started GET "/bookreviews" for ::1 at 2021-08-12 18:42:14 +0100
+Processing by BookreviewsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bookreviews/index.html.erb within layouts/application
+  [1m[36mBookreview Load (0.1ms)[0m  [1m[34mSELECT "bookreviews".* FROM "bookreviews"[0m
+  ↳ app/views/bookreviews/index.html.erb:5
+  Rendered bookreviews/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 948)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4804)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.1ms | Allocations: 5806)
+
+
+Started GET "/search" for ::1 at 2021-08-12 18:42:15 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.8ms | Allocations: 372)
+  Rendered books/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 706)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3967)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4535)
+
+
+Started GET "/new?q=javascript&commit=Search" for ::1 at 2021-08-12 18:42:16 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"javascript", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 3591)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 3661)
+Completed 500 Internal Server Error in 509ms (ActiveRecord: 0.0ms | Allocations: 5731)
+
+
+  
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    4: <div class="row row-cols-1 row-cols-md-6 g-4">
+    5:   <% @books.each do |book| %>
+    6:     <div class="col">
+    7:       <a class="card-link" href="<%= new_bookreview_path(book: @book.title) %>">
+    8:         <div class="card h-100">
+    9:           <div class="image-container">
+   10:             <img src="<%= book.image_link %>" class="card-img-top" alt="...">
+  
+app/views/books/index.html.erb:7
+app/views/books/index.html.erb:5
+Started GET "/new?q=javascript&commit=Search" for ::1 at 2021-08-12 18:42:24 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"javascript", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3970)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 7666)
+Completed 200 OK in 596ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 10314)
+
+
+Started GET "/bookreviews/new?book=Eloquent+JavaScript%3A+A+Modern+Introduction+to+Programming" for ::1 at 2021-08-12 18:42:26 +0100
+Processing by BookreviewsController#new as HTML
+  Parameters: {"book"=>"Eloquent JavaScript: A Modern Introduction to Programming"}
+  Rendering layout layouts/application.html.erb
+  Rendering bookreviews/new.html.erb within layouts/application
+  Rendered bookreviews/_form.html.erb (Duration: 10.7ms | Allocations: 3970)
+  Rendered bookreviews/new.html.erb within layouts/application (Duration: 12.8ms | Allocations: 4303)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 7559)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 9071)
+
+
+Started POST "/bookreviews" for ::1 at 2021-08-12 18:42:37 +0100
+Processing by BookreviewsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "bookreview"=>{"book_id"=>"", "book"=>"This is a book", "body"=>"This is a review."}, "commit"=>"Create Bookreview"}
+[31mUnpermitted parameter: :book_id[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookreviews_controller.rb:17:in `create'
+  [1m[36mBookreview Create (0.3ms)[0m  [1m[32mINSERT INTO "bookreviews" ("book", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["book", "This is a book"], ["body", "This is a review."], ["created_at", "2021-08-12 17:42:37.273006"], ["updated_at", "2021-08-12 17:42:37.273006"]]
+  ↳ app/controllers/bookreviews_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (16.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookreviews_controller.rb:17:in `create'
+Redirected to http://localhost:3000/bookreviews/10
+Completed 302 Found in 33ms (ActiveRecord: 16.9ms | Allocations: 4885)
+
+
+Started GET "/bookreviews/10" for ::1 at 2021-08-12 18:42:37 +0100
+Processing by BookreviewsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mBookreview Load (0.2ms)[0m  [1m[34mSELECT "bookreviews".* FROM "bookreviews" WHERE "bookreviews"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/bookreviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering bookreviews/show.html.erb within layouts/application
+  Rendered bookreviews/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 271)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 3525)
+Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 0.2ms | Allocations: 4699)
+
+
+Started DELETE "/bookreviews/10" for ::1 at 2021-08-12 18:42:39 +0100
+Processing by BookreviewsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"10"}
+  [1m[36mBookreview Load (0.2ms)[0m  [1m[34mSELECT "bookreviews".* FROM "bookreviews" WHERE "bookreviews"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/bookreviews_controller.rb:39:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/bookreviews_controller.rb:40:in `destroy'
+  [1m[36mBookreview Destroy (0.3ms)[0m  [1m[31mDELETE FROM "bookreviews" WHERE "bookreviews"."id" = ?[0m  [["id", 10]]
+  ↳ app/controllers/bookreviews_controller.rb:40:in `destroy'
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/bookreviews_controller.rb:40:in `destroy'
+Redirected to http://localhost:3000/bookreviews
+Completed 302 Found in 15ms (ActiveRecord: 4.0ms | Allocations: 4738)
+
+
+Started GET "/bookreviews" for ::1 at 2021-08-12 18:42:39 +0100
+Processing by BookreviewsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering bookreviews/index.html.erb within layouts/application
+  [1m[36mBookreview Load (0.1ms)[0m  [1m[34mSELECT "bookreviews".* FROM "bookreviews"[0m
+  ↳ app/views/bookreviews/index.html.erb:5
+  Rendered bookreviews/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 941)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 4195)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.1ms | Allocations: 4711)
+
+
+Started GET "/search" for ::1 at 2021-08-12 18:43:29 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 2.2ms | Allocations: 282)
+  Rendered books/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 697)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 4402)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 6081)
+
+
+Started GET "/new?q=javascript&commit=Search" for ::1 at 2021-08-12 18:43:31 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"javascript", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3966)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 7220)
+Completed 200 OK in 517ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 9189)
+
+
+Started GET "/bookreviews/new?book=Eloquent+JavaScript%3A+A+Modern+Introduction+to+Programming" for ::1 at 2021-08-12 18:43:32 +0100
+Processing by BookreviewsController#new as HTML
+  Parameters: {"book"=>"Eloquent JavaScript: A Modern Introduction to Programming"}
+  Rendering layout layouts/application.html.erb
+  Rendering bookreviews/new.html.erb within layouts/application
+  Rendered bookreviews/_form.html.erb (Duration: 2.4ms | Allocations: 851)
+  Rendered bookreviews/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1193)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 4532)
+Completed 200 OK in 16ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 6022)
+
+
+Started POST "/bookreviews" for ::1 at 2021-08-12 18:43:36 +0100
+Processing by BookreviewsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "bookreview"=>{"book"=>"", "body"=>"This is a review."}, "commit"=>"Create Bookreview"}
+  Rendering layout layouts/application.html.erb
+  Rendering bookreviews/new.html.erb within layouts/application
+  Rendered bookreviews/_form.html.erb (Duration: 1.3ms | Allocations: 1026)
+  Rendered bookreviews/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1118)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 4292)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 5329)
+
+
