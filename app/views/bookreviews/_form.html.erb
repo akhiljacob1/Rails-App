@@ -1,6 +1,6 @@
 <%= form_with model: bookreview do |form| %>
   <div>
-    <%= form.hidden_field :book %>
+    <%= form.hidden_field :book, value: :book %>
     <% bookreview.errors.full_messages_for(:book).each do |message| %>
       <div><%= message %></div>
     <% end %>
