@@ -9,6 +9,7 @@ class BookreviewsController < ApplicationController
 
   def new
     @bookreview = Bookreview.new
+    @title = params[:book]
   end
 
   def create
