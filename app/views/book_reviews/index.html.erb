@@ -1,0 +1,12 @@
+<h1>Bookreviews#index</h1>
+<h3>Bookreviews</h3>
+
+<ul>
+  <% @book_reviews.each do |book_review| %>
+    <li>
+      <%= link_to book_review.book, book_review %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New Bookreview", search_path %>

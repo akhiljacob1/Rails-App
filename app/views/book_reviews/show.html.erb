@@ -1,0 +1,10 @@
+<h1><%= @book_review.book %></h1>
+
+<p><%= @book_review.body %></p>
+
+<ul>
+  <li><%= link_to "Edit", edit_book_review_path(@book_review) %></li>
+  <li><%= link_to "Delete", book_review_path(@book_review),
+                  method: :delete,
+                  data: { confirm: "Are you sure?" } %></li>
+</ul>
