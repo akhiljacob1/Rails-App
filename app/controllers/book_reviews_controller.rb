@@ -24,6 +24,7 @@ class BookReviewsController < ApplicationController
 
   def edit
     @book_review = BookReview.find(params[:id])
+    @title = @book_review.book
   end
 
   def update
