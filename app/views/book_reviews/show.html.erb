@@ -1,4 +1,5 @@
-<h1><%= @book_review.book_id %></h1>
+<% results = GoogleBooks.search("isbn:#{@book_review.book_id}")%>
+<h1><%= results.first.title%></h1> 
 
 <p><%= @book_review.body %></p>
 

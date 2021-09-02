@@ -9,11 +9,12 @@ class BookReviewsController < ApplicationController
 
   def new
     @book_review = BookReview.new
-    @title = params[:book_id]
+    @book_review.book_id = params[:book_id]
   end
 
   def create
     @book_review = BookReview.new(book_review_params)
+    @book_review.user_id = current_user
 
     if @book_review.save
       redirect_to @book_review
@@ -46,6 +47,6 @@ class BookReviewsController < ApplicationController
 
   private
   def book_review_params
-    params.require(:book_review).permit(:book_id, :body)
+    params.require(:book_review).permit(:user_id, :book_id, :body)
   end
 end
