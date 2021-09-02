@@ -9,7 +9,7 @@ class BookReviewsController < ApplicationController
 
   def new
     @book_review = BookReview.new
-    @title = params[:book]
+    @title = params[:book_id]
   end
 
   def create
@@ -46,6 +46,6 @@ class BookReviewsController < ApplicationController
 
   private
   def book_review_params
-    params.require(:book_review).permit(:body)
+    params.require(:book_review).permit(:book_id, :body)
   end
 end
