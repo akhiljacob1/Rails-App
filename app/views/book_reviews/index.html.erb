@@ -4,7 +4,7 @@
 <ul>
   <% @book_reviews.each do |book_review| %>
     <li>
-      <%= link_to book_review.book, book_review %>
+      <%= link_to book_review.book_id, book_review %>
     </li>
   <% end %>
 </ul>
