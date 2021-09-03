@@ -1,0 +1,13 @@
+<% results = GoogleBooks.search("isbn:#{@book_review.book_id}")%>
+<h1><%= results.first.title%></h1> 
+
+<p><%= @book_review.body %></p>
+
+<ul>
+  <li><%= link_to "Edit", edit_book_review_path(@book_review) %></li>
+  <li><%= link_to "Delete", book_review_path(@book_review),
+                  method: :delete,
+                  data: { confirm: "Are you sure?" } %></li>
+</ul>
+
+<%= link_to "Book reviews", book_reviews_path %>

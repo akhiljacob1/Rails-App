@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   get "/new", to: "books#index"
   get "/search", to: "books#new"
 
-  resources :bookreviews
+  resources :book_reviews
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
