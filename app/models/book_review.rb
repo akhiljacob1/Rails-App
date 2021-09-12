@@ -1,4 +1,5 @@
 class BookReview < ApplicationRecord
-  validates_presence_of :book_id, :user_id
+  belongs_to :user
+
   validates :body, presence: true, length: { minimum: 3 }
 end
