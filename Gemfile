@@ -5,6 +5,7 @@ ruby '2.6.3'
 
 gem 'devise'
 gem 'googlebooks', '~> 0.0.9'
+gem 'pundit'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'

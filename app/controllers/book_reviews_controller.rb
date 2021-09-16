@@ -1,10 +1,10 @@
 class BookReviewsController < ApplicationController
   def index
-    @book_reviews = BookReview.where(user: current_user)
+    @book_reviews = policy_scope(BookReview)
   end
 
   def show
-    @book_review = BookReview.find(params[:id])
+    @book_review = policy_scope(BookReview).find(params[:id])
   end
 
   def new

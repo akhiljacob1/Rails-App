@@ -16626,3 +16626,34 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.1ms | Allocations: 4591)
 
 
+Started GET "/book_reviews/" for 127.0.0.1 at 2021-09-16 18:05:22 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."user_id" = ?[0m  [["user_id", "2"]]
+  ↳ app/views/book_reviews/index.html.erb:5
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 878.9ms | Allocations: 7343)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 886.8ms | Allocations: 13744)
+Completed 200 OK in 928ms (Views: 888.1ms | ActiveRecord: 2.3ms | Allocations: 26343)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-09-16 18:05:31 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."user_id" = ? AND "book_reviews"."id" = ? LIMIT ?[0m  [["user_id", "2"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.3ms | Allocations: 2209)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find BookReview with 'id'=2 [WHERE "book_reviews"."user_id" = ?]):
+  
+app/controllers/book_reviews_controller.rb:7:in `show'
