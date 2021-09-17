@@ -1,10 +1,10 @@
 class BookReviewsController < ApplicationController
   def index
-    @book_reviews = BookReview.all
+    @book_reviews = policy_scope(BookReview)
   end
 
   def show
-    @book_review = BookReview.find(params[:id])
+    @book_review = policy_scope(BookReview).find(params[:id])
   end
 
   def new
@@ -14,7 +14,7 @@ class BookReviewsController < ApplicationController
 
   def create
     @book_review = BookReview.new(book_review_params)
-    @book_review.user_id = current_user
+    @book_review.user_id = current_user.id
 
     if @book_review.save
       redirect_to @book_review
@@ -46,6 +46,6 @@ class BookReviewsController < ApplicationController
 
   private
   def book_review_params
-    params.require(:book_review).permit(:user_id, :book_id, :body)
+    params.require(:book_review).permit(:book_id, :body)
   end
 end

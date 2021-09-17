@@ -5,6 +5,7 @@ ruby '2.6.3'
 
 gem 'devise'
 gem 'googlebooks', '~> 0.0.9'
+gem 'pundit'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4'
@@ -34,6 +35,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 5.0', '>= 5.0.2'
+  gem 'shoulda-matchers'
 end
 
 group :development do
