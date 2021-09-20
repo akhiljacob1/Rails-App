@@ -1,7 +1,9 @@
 class BookReviewPolicy < ApplicationPolicy
-  class Scope < Scope
-    def resolve
-      scope.where(user: user)
-    end
+  def update?
+    @user == @record.user
+  end
+
+  def destroy?
+    @user == @record.user
   end
 end
