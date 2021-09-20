@@ -29,6 +29,7 @@ class BookReviewsController < ApplicationController
 
   def update
     @book_review = BookReview.find(params[:id])
+    authorize @book_review
 
     if @book_review.update(book_review_params)
       redirect_to @book_review
@@ -39,6 +40,7 @@ class BookReviewsController < ApplicationController
 
   def destroy
     @book_review = BookReview.find(params[:id])
+    authorize @book_review
     @book_review.destroy
     
     redirect_to book_reviews_path
