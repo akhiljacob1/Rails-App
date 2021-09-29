@@ -1,0 +1,39 @@
+.full-login {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.login-container {
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 48px;
+  background-color: #292929;
+  border: 1px solid #BC9568;
+  border-radius: 15px;
+}
+
+.left-login {
+  width: 50%;
+  min-width: 500px;
+}
+
+.right-img {
+  width: 50%;
+  height: 100%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 0px;
+  font-size: medium;
+  color: #5a5a5a;
+}

@@ -1,13 +1,21 @@
 <h1>Bookreviews#index</h1>
 <h3>Bookreviews</h3>
 
-<ul>
+<div class="row row-cols-1 row-cols-md-6 g-4">
   <% @book_reviews.each do |book_review| %>
-    <li>
-      <% results = GoogleBooks.search("isbn:#{book_review.book_id}") %>
-      <%= link_to results.first.title, book_review %>
-    </li>
+    <% book = GoogleBooks.search("isbn:#{book_review.book_id}").first %>
+    <div class="col">
+      <div class="card h-100">
+        <div class="image-container">
+          <img src="<%= book.image_link %>" class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title"><%= link_to book.title, book_review %></h5>
+          <p class="card-text">Card-text goes here.</p>
+        </div>
+      </div>
+    </div>
   <% end %>
-</ul>
+</div>
 
 <%= link_to "New Bookreview", search_path %>
