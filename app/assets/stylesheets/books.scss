@@ -9,6 +9,46 @@ a, a:hover, a:focus, a:active {
 }
 */
 
-.col {
-  border: 1px solid blue;
+h3 {
+  padding: 10px;
+}
+
+.review-container {
+  padding: 20px;
+}
+
+.image-container {
+  height: 200px;
+  background-color: black;
+}
+
+.card-body {
+  background-color: rgb(29, 25, 25);
+}
+
+.card {
+  background-color: rgb(70, 60, 60);
+}
+
+.name-link {
+  font-size: large;
+  color: rgb(167, 142, 142);
+  text-decoration: none;
+}
+
+.name-link:hover, .name-link:focus {
+  color: rgb(117, 99, 99);
+}
+
+.card-text {
+  color: rgb(121, 100, 100);
+}
+
+.new-review {
+  text-align: center;
+  padding: 10px;
+}
+
+.btn {
+  background-color: rgb(70, 60, 60) !important;
 }
