@@ -24732,3 +24732,478 @@ Processing by BookReviewsController#index as HTML
 Completed 200 OK in 1708ms (Views: 1703.0ms | ActiveRecord: 0.4ms | Allocations: 31000)
 
 
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-09-30 12:00:08 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 682)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 167.0ms | Allocations: 401324)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 173.5ms | Allocations: 405530)
+Completed 200 OK in 207ms (Views: 179.7ms | ActiveRecord: 0.4ms | Allocations: 414586)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-09-30 12:00:13 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"jacob@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "jacob@email.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 194ms (ActiveRecord: 0.3ms | Allocations: 4789)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-30 12:00:14 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:12
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2536)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 56)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 5834)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 0.3ms | Allocations: 6886)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-09-30 12:00:15 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 1623.2ms | Allocations: 11239)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 1630.7ms | Allocations: 14660)
+Completed 200 OK in 1638ms (Views: 1631.4ms | ActiveRecord: 0.9ms | Allocations: 16781)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:00:22 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.3ms | Allocations: 276)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 663)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 4125)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 5122)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:00:58 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 1.0ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 19145)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.0ms | Allocations: 19530)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:01:02 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 1.0ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 57.4ms | Allocations: 18599)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms | Allocations: 18983)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:01:05 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 4103)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 4486)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:01:36 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 18594)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms | Allocations: 18975)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:01:53 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.7ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.8ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 42.5ms | Allocations: 18587)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms | Allocations: 18968)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:02:40 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.9ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 58.1ms | Allocations: 21961)
+Completed 200 OK in 61ms (Views: 59.2ms | ActiveRecord: 0.0ms | Allocations: 22342)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:02:51 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.4ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 65.3ms | Allocations: 20987)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms | Allocations: 21368)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:03:10 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.4ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 56.4ms | Allocations: 21932)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms | Allocations: 22313)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:03:26 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 117.7ms | Allocations: 22360)
+Completed 200 OK in 119ms (Views: 118.2ms | ActiveRecord: 0.0ms | Allocations: 22741)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:03:36 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 22360)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.0ms | Allocations: 22741)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:03:53 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 50.9ms | Allocations: 21933)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms | Allocations: 22314)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:04:47 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 3680)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 4061)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:05:05 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.6ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.9ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 47.1ms | Allocations: 22331)
+Completed 200 OK in 50ms (Views: 48.1ms | ActiveRecord: 0.0ms | Allocations: 22712)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:07:22 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.8ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 17291)
+Completed 200 OK in 37ms (Views: 36.1ms | Allocations: 17672)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:11:40 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 21938)
+Completed 200 OK in 54ms (Views: 53.8ms | Allocations: 22319)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:12:12 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 1.0ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 52.2ms | Allocations: 21382)
+Completed 200 OK in 56ms (Views: 53.4ms | Allocations: 21764)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:12:18 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 1.1ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 1.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 70.1ms | Allocations: 22336)
+Completed 200 OK in 73ms (Views: 71.7ms | Allocations: 22717)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:13:27 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 55.1ms | Allocations: 22332)
+Completed 200 OK in 57ms (Views: 55.8ms | Allocations: 22713)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:14:16 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.8ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 22823)
+Completed 200 OK in 61ms (Views: 59.8ms | Allocations: 23204)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:15:32 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 53.7ms | Allocations: 22823)
+Completed 200 OK in 55ms (Views: 54.6ms | Allocations: 23204)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:18:28 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 3680)
+Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 4061)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:20:43 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 60.4ms | Allocations: 20908)
+Completed 200 OK in 63ms (Views: 61.3ms | Allocations: 21290)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:21:50 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 225)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3721)
+Completed 200 OK in 7ms (Views: 5.7ms | Allocations: 4102)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:24:41 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.4ms | Allocations: 267)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 662)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 2.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4563)
+Completed 200 OK in 16ms (Views: 13.9ms | Allocations: 5782)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:25:06 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 1.1ms | Allocations: 104)
+  Rendered books/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 235)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 66.9ms | Allocations: 21462)
+Completed 200 OK in 69ms (Views: 68.1ms | Allocations: 21844)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-09-30 12:25:27 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 1863.6ms | Allocations: 7350)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 1874.0ms | Allocations: 10811)
+Completed 200 OK in 1894ms (Views: 1876.8ms | ActiveRecord: 2.1ms | Allocations: 13382)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:25:31 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.5ms | Allocations: 104)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 235)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3695)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 4079)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:27:24 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.1ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 69.4ms | Allocations: 21847)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.0ms | Allocations: 22228)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:27:31 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 55.7ms | Allocations: 20990)
+Completed 200 OK in 58ms (Views: 56.2ms | ActiveRecord: 0.0ms | Allocations: 21371)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:27:42 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 68.6ms | Allocations: 22397)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms | Allocations: 22778)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:27:50 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.9ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 22367)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.0ms | Allocations: 22748)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:28:08 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 50.4ms | Allocations: 22824)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.0ms | Allocations: 23205)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 12:28:17 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.3ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 55.6ms | Allocations: 21886)
+Completed 200 OK in 58ms (Views: 56.4ms | ActiveRecord: 0.0ms | Allocations: 22267)
+
+
+Started GET "/new?q=digital+fortress&commit=Search" for 127.0.0.1 at 2021-09-30 12:29:20 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital fortress", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 4555)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 8433)
+Completed 200 OK in 844ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 10651)
+
+

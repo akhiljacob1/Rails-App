@@ -76,18 +76,13 @@ input[type="submit"] {
   background-color: #5a5a5a;
   color: blanchedalmond;
   font-size: medium;
-  height: 50px;
+  height: 40px;
   width: 100px;
   border-radius: 10px;
 }
 
 input[type="submit"]:hover {
   background-color: #8d8d8d;
-  color: blanchedalmond;
-  font-size: medium;
-  height: 50px;
-  width: 100px;
-  border-radius: 10px;
 }
 
 .field {

@@ -64,3 +64,38 @@ a {
 .name-link:hover, .name-link:focus {
   color: rgb(117, 99, 99);
 }
+
+.content {
+  position: absolute;
+  top: 50% !important;
+  left: 50%;
+  transform: translate(-50%, -80%) !important;
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #634e37;
+  border-radius: 20px;
+  padding: 0px 20px;
+  color: bisque;
+}
+
+input:hover {
+  background-color: #292929;
+  border: none;
+}
+
+.search-btn {
+  padding: 20px;
+  text-align: center;
+}
+
+/*
+div {
+  border: greenyellow 1px solid;
+}
+*/
