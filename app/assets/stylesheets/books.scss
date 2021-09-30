@@ -94,8 +94,71 @@ input:hover {
   text-align: center;
 }
 
-/*
-div {
-  border: greenyellow 1px solid;
+.card-img-top {
+  object-fit: contain;
 }
-*/
+
+.image-container {
+  background-color: rgb(29, 25, 25);
+}
+
+.cancel {
+  text-align: center;
+}
+
+.full-review {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.review-container {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  height: 500px;
+  min-width: 400px;
+  padding: 48px;
+}
+
+.left-review {
+  width: 50%;
+  transform: translate(0%, -30%);
+  min-width: 440px;
+}
+
+.right-pane {
+  width: 50%;
+  height: 100%;
+  background-color: #292929;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+textarea {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(70, 60, 60);
+  border: 1px solid #BC9568;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: bisque;
+}
+
+.title {
+  text-align: center;
+}
+
+.right-image {
+  height: 400px;
+}
+
+.meta {
+  display: flex;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2)
+}

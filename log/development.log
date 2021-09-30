@@ -25207,3 +25207,2666 @@ Processing by BooksController#index as HTML
 Completed 200 OK in 844ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 10651)
 
 
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:36:13 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 3856)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 11934)
+Completed 200 OK in 617ms (Views: 40.8ms | ActiveRecord: 0.0ms | Allocations: 18384)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:39:07 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 3682)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 7585)
+Completed 200 OK in 617ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 10526)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:39:14 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 3676)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 7577)
+Completed 200 OK in 584ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 10362)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:39:19 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3675)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 7577)
+Completed 200 OK in 657ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 10041)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:41:45 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 3677)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 7580)
+Completed 200 OK in 706ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 10294)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:41:55 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3677)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 7578)
+Completed 200 OK in 789ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 10463)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:46:41 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 3684)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 7587)
+Completed 200 OK in 695ms (Views: 22.3ms | Allocations: 10127)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:48:43 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 4181)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 7768)
+Completed 200 OK in 775ms (Views: 14.5ms | Allocations: 10088)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:50:09 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 121.8ms | Allocations: 61531)
+Completed 200 OK in 789ms (Views: 122.4ms | Allocations: 63139)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:50:17 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 4155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 47.0ms | Allocations: 25872)
+Completed 200 OK in 751ms (Views: 47.4ms | Allocations: 27884)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:51:15 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 24870)
+Completed 200 OK in 716ms (Views: 44.0ms | Allocations: 26978)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:51:32 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 25344)
+Completed 200 OK in 625ms (Views: 47.7ms | Allocations: 27327)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:52:02 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 4155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 50.8ms | Allocations: 24930)
+Completed 200 OK in 689ms (Views: 51.5ms | Allocations: 26719)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:52:11 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 8125)
+Completed 200 OK in 640ms (Views: 16.3ms | Allocations: 9834)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:52:27 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 8125)
+Completed 200 OK in 599ms (Views: 4.5ms | Allocations: 9834)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:53:47 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 26753)
+Completed 200 OK in 651ms (Views: 36.1ms | Allocations: 28887)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/application.css-6e35795713a831113c8e6d6484ef82ef9f03f1d869971eecd6b878bc1e56ce56.map"):
+  
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:55:59 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 4175)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered layout layouts/application.html.erb (Duration: 71.0ms | Allocations: 26961)
+Completed 200 OK in 685ms (Views: 72.6ms | Allocations: 28722)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:56:37 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 4155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 49.3ms | Allocations: 26761)
+Completed 200 OK in 634ms (Views: 49.9ms | Allocations: 28672)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:56:46 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | Allocations: 25784)
+Completed 200 OK in 699ms (Views: 56.6ms | Allocations: 27867)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:57:18 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 57.6ms | Allocations: 24879)
+Completed 200 OK in 792ms (Views: 58.2ms | Allocations: 26567)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:58:39 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 8125)
+Completed 200 OK in 690ms (Views: 6.5ms | Allocations: 10107)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:58:58 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 72.4ms | Allocations: 26272)
+Completed 200 OK in 719ms (Views: 72.9ms | Allocations: 28330)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:59:24 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 4155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 47.7ms | Allocations: 25842)
+Completed 200 OK in 696ms (Views: 48.4ms | Allocations: 27578)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:59:32 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 57.4ms | Allocations: 25353)
+Completed 200 OK in 722ms (Views: 58.0ms | Allocations: 27471)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:59:36 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 8.4ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 7651)
+Completed 200 OK in 605ms (Views: 24.5ms | Allocations: 9333)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 12:59:58 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 63.8ms | Allocations: 26332)
+Completed 200 OK in 663ms (Views: 64.4ms | Allocations: 27945)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:00:10 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 89.7ms | Allocations: 26304)
+Completed 200 OK in 822ms (Views: 90.3ms | Allocations: 28316)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:00:22 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 4155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 54.8ms | Allocations: 25848)
+Completed 200 OK in 607ms (Views: 55.5ms | Allocations: 27762)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:00:31 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 4154)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 8125)
+Completed 200 OK in 650ms (Views: 9.5ms | Allocations: 9883)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:03:34 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 4325)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 4395)
+Completed 500 Internal Server Error in 682ms (Allocations: 7192)
+
+
+  
+ActionView::Template::Error (undefined method `author' for #<GoogleBooks::Item:0x00007f873002c178>
+Did you mean?  authors):
+    12:             </div>
+    13:             <div class="card-body">
+    14:               <h5 class="card-title"><%= book.title %></h5>
+    15:               <p class="card-text"><% book.author %></p>
+    16:             </div>
+    17:           </div>
+    18:         </a>
+  
+app/views/books/index.html.erb:15
+app/views/books/index.html.erb:6
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:03:40 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 4359)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 8262)
+Completed 200 OK in 778ms (Views: 15.4ms | Allocations: 11160)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:03:53 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 4404)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 8305)
+Completed 200 OK in 602ms (Views: 6.4ms | Allocations: 11096)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:06:35 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 4457)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.9ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 8357)
+Completed 200 OK in 654ms (Views: 16.0ms | Allocations: 11048)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:07:10 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 4456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 167)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 8364)
+Completed 200 OK in 781ms (Views: 24.3ms | Allocations: 10960)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:07:32 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 47.1ms | Allocations: 27510)
+Completed 200 OK in 605ms (Views: 50.9ms | Allocations: 30039)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:08:16 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 4455)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.9ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 8355)
+Completed 200 OK in 658ms (Views: 15.4ms | Allocations: 10795)
+
+
+Started GET "/new?q=digital+&commit=Search" for 127.0.0.1 at 2021-09-30 13:08:25 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital ", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 4455)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 8355)
+Completed 200 OK in 659ms (Views: 14.1ms | Allocations: 11099)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-09-30 13:08:27 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.3ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 1718.2ms | Allocations: 10893)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 1725.4ms | Allocations: 14314)
+Completed 200 OK in 1748ms (Views: 1725.8ms | ActiveRecord: 2.9ms | Allocations: 22410)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 13:08:35 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.8ms | Allocations: 284)
+  Rendered books/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 677)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 4129)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 4616)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 13:08:46 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 3677)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 4061)
+
+
+Started GET "/new?q=&commit=Search" for 127.0.0.1 at 2021-09-30 13:08:47 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3569)
+Completed 200 OK in 158ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 5337)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-09-30 13:08:49 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.2ms | Allocations: 103)
+  Rendered books/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3677)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 4060)
+
+
+Started GET "/new?q=digital+fortress&commit=Search" for 127.0.0.1 at 2021-09-30 13:08:52 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital fortress", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 5184)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 8541)
+Completed 200 OK in 773ms (Views: 36.8ms | ActiveRecord: 0.0ms | Allocations: 10901)
+
+
+Started GET "/new?q=digital+fortress&commit=Search" for 127.0.0.1 at 2021-09-30 13:09:45 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"digital fortress", "commit"=>"Search"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 5420)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 162)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 9224)
+Completed 200 OK in 1142ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 12907)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:10:18 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 197.2ms | Allocations: 356436)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 198.7ms | Allocations: 356753)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 204.4ms | Allocations: 360112)
+Completed 200 OK in 208ms (Views: 206.2ms | ActiveRecord: 0.0ms | Allocations: 361147)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:10:57 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.7ms | Allocations: 865)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1187)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 5087)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 6337)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:11:04 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.7ms | Allocations: 865)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1179)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 5078)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 6317)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:11:11 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 4.6ms | Allocations: 865)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1179)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.9ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 5078)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 6322)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:11:13 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.8ms | Allocations: 573)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 665)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 4120)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 4533)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:11:15 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.9ms | Allocations: 865)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1178)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 5077)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6316)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:11:19 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.3ms | Allocations: 865)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1178)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 1.3ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 5077)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 6316)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:11:23 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.3ms | Allocations: 865)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1178)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 5077)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 6316)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:13:12 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 865)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1206)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.9ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 5107)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 6352)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:15:30 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.7ms | Allocations: 573)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 665)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 52.3ms | Allocations: 23308)
+Completed 200 OK in 56ms (Views: 53.7ms | Allocations: 23716)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:15:47 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.3ms | Allocations: 865)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 5098)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 6337)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:16:08 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 3.4ms | Allocations: 865)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 5098)
+Completed 200 OK in 11ms (Views: 9.1ms | Allocations: 6337)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:16:34 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.4ms | Allocations: 573)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 665)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 40.4ms | Allocations: 22851)
+Completed 200 OK in 44ms (Views: 41.0ms | Allocations: 23259)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:17:28 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.9ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 22358)
+Completed 200 OK in 48ms (Views: 47.1ms | Allocations: 22765)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:17:33 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.4ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 54.1ms | Allocations: 22814)
+Completed 200 OK in 58ms (Views: 55.2ms | Allocations: 23221)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:17:51 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.7ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 90.4ms | Allocations: 21901)
+Completed 200 OK in 94ms (Views: 91.5ms | Allocations: 22308)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:17:54 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 3.8ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 21867)
+Completed 200 OK in 62ms (Views: 60.3ms | Allocations: 22274)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:17:58 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.8ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4626)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 5033)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:18:03 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.3ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 44.6ms | Allocations: 22843)
+Completed 200 OK in 47ms (Views: 45.8ms | Allocations: 23250)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:18:09 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.5ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 4626)
+Completed 200 OK in 9ms (Views: 7.3ms | Allocations: 5033)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:18:20 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 23300)
+Completed 200 OK in 41ms (Views: 40.4ms | Allocations: 23707)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:18:41 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 22845)
+Completed 200 OK in 56ms (Views: 54.2ms | Allocations: 23252)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:18:52 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.4ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 23302)
+Completed 200 OK in 47ms (Views: 46.4ms | Allocations: 23709)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:18:57 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 3.2ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 4.0ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 90.0ms | Allocations: 21902)
+Completed 200 OK in 93ms (Views: 90.8ms | Allocations: 22309)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:19:04 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 3.0ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.6ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 53.9ms | Allocations: 22363)
+Completed 200 OK in 57ms (Views: 55.0ms | Allocations: 22770)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:19:07 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 3.4ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 54.0ms | Allocations: 22845)
+Completed 200 OK in 55ms (Views: 54.6ms | Allocations: 23252)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:19:14 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.3ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 52.8ms | Allocations: 23300)
+Completed 200 OK in 56ms (Views: 53.9ms | Allocations: 23707)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:21:42 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.7ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 97.9ms | Allocations: 22878)
+Completed 200 OK in 101ms (Views: 99.0ms | Allocations: 23285)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:21:49 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 4.0ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 1.0ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 70.4ms | Allocations: 22823)
+Completed 200 OK in 74ms (Views: 71.9ms | Allocations: 23230)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:22:01 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.9ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 60.9ms | Allocations: 23305)
+Completed 200 OK in 63ms (Views: 61.5ms | Allocations: 23712)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:22:10 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.4ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 81.3ms | Allocations: 23306)
+Completed 200 OK in 83ms (Views: 81.8ms | Allocations: 23713)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:22:26 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.2ms | Allocations: 565)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 657)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 95.4ms | Allocations: 22365)
+Completed 200 OK in 97ms (Views: 96.2ms | Allocations: 22772)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:22:47 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 4.9ms | Allocations: 701)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1042)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4942)
+Completed 200 OK in 16ms (Views: 14.0ms | Allocations: 6187)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:23:19 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 3.2ms | Allocations: 423)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 515)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3970)
+Completed 200 OK in 11ms (Views: 7.7ms | Allocations: 4378)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:25:17 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 585)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 918)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 4817)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 6056)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:25:27 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.9ms | Allocations: 304)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 396)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.8ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 51.1ms | Allocations: 22129)
+Completed 200 OK in 53ms (Views: 51.9ms | Allocations: 22537)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:25:34 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.6ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 21665)
+Completed 200 OK in 43ms (Views: 41.4ms | Allocations: 22072)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:25:51 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 22578)
+Completed 200 OK in 51ms (Views: 48.2ms | Allocations: 22985)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:26:06 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.6ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 48.1ms | Allocations: 21634)
+Completed 200 OK in 49ms (Views: 48.5ms | Allocations: 22041)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:26:23 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 42.8ms | Allocations: 22097)
+Completed 200 OK in 44ms (Views: 43.3ms | Allocations: 22504)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:26:33 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 39.8ms | Allocations: 22119)
+Completed 200 OK in 42ms (Views: 40.3ms | Allocations: 22526)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:26:41 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.1ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 88.2ms | Allocations: 22093)
+Completed 200 OK in 92ms (Views: 89.2ms | Allocations: 22500)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:26:49 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.3ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 46.7ms | Allocations: 23036)
+Completed 200 OK in 51ms (Views: 48.1ms | Allocations: 23443)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:27:03 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 23036)
+Completed 200 OK in 46ms (Views: 43.8ms | Allocations: 23443)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:27:15 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.4ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 22154)
+Completed 200 OK in 40ms (Views: 39.2ms | Allocations: 22561)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:28:08 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 1.0ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 55.0ms | Allocations: 22611)
+Completed 200 OK in 56ms (Views: 55.5ms | Allocations: 23018)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:28:12 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.6ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 1.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 22582)
+Completed 200 OK in 45ms (Views: 43.9ms | Allocations: 22989)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:28:40 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 48.1ms | Allocations: 21187)
+Completed 200 OK in 52ms (Views: 48.9ms | Allocations: 21594)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:30:32 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.1ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 60.2ms | Allocations: 22212)
+Completed 200 OK in 62ms (Views: 60.8ms | Allocations: 22619)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:30:37 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 19611)
+Completed 200 OK in 43ms (Views: 41.9ms | Allocations: 20018)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:30:44 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.6ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 18737)
+Completed 200 OK in 41ms (Views: 39.8ms | Allocations: 19144)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:30:54 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 18768)
+Completed 200 OK in 33ms (Views: 30.6ms | Allocations: 19175)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:31:47 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 22175)
+Completed 200 OK in 36ms (Views: 34.7ms | Allocations: 22582)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:32:51 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.1ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 62.7ms | Allocations: 21696)
+Completed 200 OK in 64ms (Views: 63.1ms | Allocations: 22103)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:33:16 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.2ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 54.2ms | Allocations: 21673)
+Completed 200 OK in 58ms (Views: 55.1ms | Allocations: 22080)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:33:33 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 49.6ms | Allocations: 22104)
+Completed 200 OK in 51ms (Views: 50.5ms | Allocations: 22511)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:33:52 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 23045)
+Completed 200 OK in 47ms (Views: 46.3ms | Allocations: 23452)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:34:01 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3842)
+Completed 200 OK in 15ms (Views: 14.0ms | Allocations: 4249)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:34:03 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.4ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 4357)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:34:15 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 5.1ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 3842)
+Completed 200 OK in 16ms (Views: 14.3ms | Allocations: 4249)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:35:04 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 21651)
+Completed 200 OK in 47ms (Views: 46.0ms | Allocations: 22058)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:35:09 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.2ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 47.9ms | Allocations: 23044)
+Completed 200 OK in 49ms (Views: 48.4ms | Allocations: 23451)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:35:17 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 79.4ms | Allocations: 22589)
+Completed 200 OK in 81ms (Views: 80.0ms | Allocations: 22996)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:35:24 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.9ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 4357)
+Completed 200 OK in 14ms (Views: 12.7ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:35:28 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 4357)
+Completed 200 OK in 10ms (Views: 8.1ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:36:04 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4357)
+Completed 200 OK in 11ms (Views: 9.2ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:36:19 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 4357)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:36:39 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 4357)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:36:52 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.4ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 1.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4357)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:36:57 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.6ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3883)
+Completed 200 OK in 5ms (Views: 4.0ms | Allocations: 4290)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:37:38 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 22583)
+Completed 200 OK in 45ms (Views: 44.3ms | Allocations: 22990)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:42:36 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 4358)
+Completed 200 OK in 11ms (Views: 8.6ms | Allocations: 4765)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:43:34 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 39.2ms | Allocations: 23045)
+Completed 200 OK in 40ms (Views: 39.5ms | Allocations: 23452)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:43:51 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.4ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 22561)
+Completed 200 OK in 40ms (Views: 39.4ms | Allocations: 22968)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:44:12 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 22560)
+Completed 200 OK in 44ms (Views: 43.5ms | Allocations: 22967)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:44:22 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3883)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 4290)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:45:00 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.8ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 41.0ms | Allocations: 22098)
+Completed 200 OK in 43ms (Views: 41.7ms | Allocations: 22505)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:45:25 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 4358)
+Completed 200 OK in 32ms (Views: 31.1ms | Allocations: 4765)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:45:37 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 42.1ms | Allocations: 22617)
+Completed 200 OK in 43ms (Views: 42.5ms | Allocations: 23024)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:45:45 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 43.0ms | Allocations: 21612)
+Completed 200 OK in 44ms (Views: 43.5ms | Allocations: 22019)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:46:01 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3842)
+Completed 200 OK in 9ms (Views: 8.0ms | Allocations: 4249)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:46:03 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4357)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:46:12 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 42.3ms | Allocations: 21603)
+Completed 200 OK in 44ms (Views: 42.8ms | Allocations: 22010)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:46:16 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 4357)
+Completed 200 OK in 9ms (Views: 7.2ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:46:28 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.1ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 38.4ms | Allocations: 22106)
+Completed 200 OK in 40ms (Views: 39.0ms | Allocations: 22513)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:46:45 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 22564)
+Completed 200 OK in 40ms (Views: 39.6ms | Allocations: 22971)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:46:50 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 4357)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:46:54 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.2ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 41.6ms | Allocations: 22129)
+Completed 200 OK in 44ms (Views: 42.2ms | Allocations: 22536)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:47:06 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 67.1ms | Allocations: 21671)
+Completed 200 OK in 69ms (Views: 67.7ms | Allocations: 22078)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:47:52 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.2ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 22132)
+Completed 200 OK in 42ms (Views: 41.1ms | Allocations: 22539)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:48:20 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 21644)
+Completed 200 OK in 40ms (Views: 39.2ms | Allocations: 22051)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:48:32 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 4357)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:48:37 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 35.5ms | Allocations: 23045)
+Completed 200 OK in 37ms (Views: 36.1ms | Allocations: 23452)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:48:52 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.4ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 4357)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:49:01 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 388)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 4357)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 4764)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:51:37 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.1ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 3458)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3528)
+Completed 500 Internal Server Error in 12ms (Allocations: 4753)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<BookReview:0x00007f87592ad838>):
+    11:       </div>
+    12: 
+    13:       <div class="right-pane">
+    14:         <%= @book_review.title %>
+    15:       </div>
+    16:     </div>
+    17:   </body>
+  
+app/views/book_reviews/new.html.erb:14
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:51:44 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 939)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 4840)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 6085)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:54:42 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 3.0ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 377.9ms | Allocations: 2379)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 386.9ms | Allocations: 6278)
+Completed 200 OK in 390ms (Views: 388.5ms | Allocations: 7517)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:55:07 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 304)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 394.0ms | Allocations: 2265)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 436.0ms | Allocations: 23981)
+Completed 200 OK in 437ms (Views: 436.4ms | Allocations: 24389)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:55:37 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.2ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 437.5ms | Allocations: 2178)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 475.5ms | Allocations: 24383)
+Completed 200 OK in 479ms (Views: 476.3ms | Allocations: 24790)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:56:02 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.5ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 345.4ms | Allocations: 2797)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 350.7ms | Allocations: 6696)
+Completed 200 OK in 353ms (Views: 352.3ms | Allocations: 7935)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:57:48 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.3ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 378.4ms | Allocations: 2831)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.9ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 390.1ms | Allocations: 6730)
+Completed 200 OK in 394ms (Views: 391.6ms | Allocations: 7969)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:58:04 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.8ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 503.7ms | Allocations: 2679)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 509.4ms | Allocations: 6578)
+Completed 200 OK in 516ms (Views: 512.2ms | Allocations: 7817)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:59:39 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.3ms | Allocations: 304)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 381.1ms | Allocations: 2179)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 419.9ms | Allocations: 23964)
+Completed 200 OK in 421ms (Views: 420.3ms | Allocations: 24372)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 13:59:50 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 355.6ms | Allocations: 2140)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 391.5ms | Allocations: 24351)
+Completed 200 OK in 393ms (Views: 392.2ms | Allocations: 24758)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:02:17 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 331.1ms | Allocations: 2602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 338.9ms | Allocations: 6501)
+Completed 200 OK in 342ms (Views: 340.9ms | Allocations: 7740)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:08:35 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 392.8ms | Allocations: 2609)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.8ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 401.9ms | Allocations: 6508)
+Completed 200 OK in 405ms (Views: 403.5ms | Allocations: 7747)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:08:52 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 888.5ms | Allocations: 2960)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 896.9ms | Allocations: 6859)
+Completed 200 OK in 899ms (Views: 898.0ms | Allocations: 8098)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:09:49 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.7ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 365.9ms | Allocations: 2677)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 374.6ms | Allocations: 6576)
+Completed 200 OK in 378ms (Views: 376.9ms | Allocations: 7815)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:09:59 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.9ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 411.7ms | Allocations: 2947)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 415.3ms | Allocations: 6846)
+Completed 200 OK in 417ms (Views: 416.3ms | Allocations: 8085)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:12:48 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.5ms | Allocations: 304)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 419.4ms | Allocations: 2217)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 468.9ms | Allocations: 23487)
+Completed 200 OK in 470ms (Views: 469.2ms | Allocations: 23895)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:15:08 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.2ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 491.8ms | Allocations: 2939)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 1.2ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 496.6ms | Allocations: 6840)
+Completed 200 OK in 505ms (Views: 498.9ms | Allocations: 8085)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:15:41 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.4ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 443.4ms | Allocations: 2927)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 448.8ms | Allocations: 6826)
+Completed 200 OK in 452ms (Views: 450.9ms | Allocations: 8065)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:16:04 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.3ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 470.6ms | Allocations: 2955)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 479.4ms | Allocations: 6854)
+Completed 200 OK in 483ms (Views: 480.9ms | Allocations: 8093)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:16:24 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.6ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 419.5ms | Allocations: 2553)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.9ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 429.3ms | Allocations: 6452)
+Completed 200 OK in 432ms (Views: 431.0ms | Allocations: 7691)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:17:08 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.8ms | Allocations: 584)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 342.0ms | Allocations: 2579)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 389.9ms | Allocations: 25206)
+Completed 200 OK in 396ms (Views: 392.8ms | Allocations: 26445)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:17:15 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.8ms | Allocations: 304)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 394.1ms | Allocations: 2208)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 400.8ms | Allocations: 6178)
+Completed 200 OK in 402ms (Views: 401.5ms | Allocations: 6586)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:17:52 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 401.4ms | Allocations: 2155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 449.4ms | Allocations: 24341)
+Completed 200 OK in 453ms (Views: 450.3ms | Allocations: 24748)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:18:07 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.6ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 347.5ms | Allocations: 1777)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 388.6ms | Allocations: 23990)
+Completed 200 OK in 392ms (Views: 389.5ms | Allocations: 24397)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:18:12 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 433.6ms | Allocations: 2078)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 473.8ms | Allocations: 24747)
+Completed 200 OK in 477ms (Views: 474.8ms | Allocations: 25154)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:18:20 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 340.9ms | Allocations: 2027)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 391.0ms | Allocations: 23293)
+Completed 200 OK in 393ms (Views: 392.1ms | Allocations: 23700)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:18:38 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.6ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 341.6ms | Allocations: 2030)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 428.8ms | Allocations: 23759)
+Completed 200 OK in 431ms (Views: 429.6ms | Allocations: 24166)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:18:46 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.3ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 314.6ms | Allocations: 2226)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 370.3ms | Allocations: 23463)
+Completed 200 OK in 371ms (Views: 370.6ms | Allocations: 23870)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:19:22 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.0ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 467.6ms | Allocations: 2201)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 519.5ms | Allocations: 24390)
+Completed 200 OK in 523ms (Views: 520.2ms | Allocations: 24797)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:19:54 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 423.8ms | Allocations: 1928)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 468.4ms | Allocations: 23692)
+Completed 200 OK in 469ms (Views: 468.8ms | Allocations: 24099)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:20:39 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 366.6ms | Allocations: 2053)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.8ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 415.1ms | Allocations: 23799)
+Completed 200 OK in 419ms (Views: 416.5ms | Allocations: 24206)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:21:04 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 375.9ms | Allocations: 2028)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 417.6ms | Allocations: 23774)
+Completed 200 OK in 420ms (Views: 418.0ms | Allocations: 24181)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:21:10 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 338.1ms | Allocations: 1750)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 346.0ms | Allocations: 5720)
+Completed 200 OK in 348ms (Views: 346.5ms | Allocations: 6127)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:21:29 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 390.9ms | Allocations: 1827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 429.4ms | Allocations: 24511)
+Completed 200 OK in 431ms (Views: 429.9ms | Allocations: 24918)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:21:35 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 341.8ms | Allocations: 1976)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 401.8ms | Allocations: 24661)
+Completed 200 OK in 404ms (Views: 402.5ms | Allocations: 25068)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:22:01 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 378.4ms | Allocations: 1928)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.8ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 411.0ms | Allocations: 24151)
+Completed 200 OK in 414ms (Views: 412.2ms | Allocations: 24558)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:22:30 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 384.8ms | Allocations: 1852)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 422.5ms | Allocations: 24047)
+Completed 200 OK in 425ms (Views: 423.0ms | Allocations: 24454)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:22:47 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.1ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 430.2ms | Allocations: 1802)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 471.9ms | Allocations: 23992)
+Completed 200 OK in 473ms (Views: 472.2ms | Allocations: 24399)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:24:31 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 317.2ms | Allocations: 1807)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 349.3ms | Allocations: 24007)
+Completed 200 OK in 350ms (Views: 349.8ms | Allocations: 24414)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:25:10 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 517.9ms | Allocations: 2127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 557.2ms | Allocations: 23355)
+Completed 200 OK in 558ms (Views: 557.5ms | Allocations: 23762)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:25:16 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 312.7ms | Allocations: 2102)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 320.5ms | Allocations: 6072)
+Completed 200 OK in 322ms (Views: 321.0ms | Allocations: 6479)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:25:38 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 334.2ms | Allocations: 2255)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 391.4ms | Allocations: 24460)
+Completed 200 OK in 395ms (Views: 392.1ms | Allocations: 24867)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:26:18 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 410.4ms | Allocations: 1928)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 456.7ms | Allocations: 23187)
+Completed 200 OK in 458ms (Views: 457.1ms | Allocations: 23594)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:26:47 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.4ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 496.8ms | Allocations: 1952)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 534.3ms | Allocations: 24159)
+Completed 200 OK in 537ms (Views: 534.9ms | Allocations: 24566)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:26:56 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.8ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 368.8ms | Allocations: 1902)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 411.3ms | Allocations: 24138)
+Completed 200 OK in 416ms (Views: 412.7ms | Allocations: 24545)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:27:16 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.5ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 306.7ms | Allocations: 2254)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 352.8ms | Allocations: 23573)
+Completed 200 OK in 356ms (Views: 354.0ms | Allocations: 23980)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:27:51 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 410.5ms | Allocations: 2055)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 442.1ms | Allocations: 23839)
+Completed 200 OK in 445ms (Views: 442.7ms | Allocations: 24246)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:28:13 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.2ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 340.1ms | Allocations: 2151)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 375.5ms | Allocations: 23931)
+Completed 200 OK in 377ms (Views: 376.1ms | Allocations: 24338)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:28:22 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 517.1ms | Allocations: 2126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 523.7ms | Allocations: 6096)
+Completed 200 OK in 527ms (Views: 524.8ms | Allocations: 6503)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:28:32 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.7ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 365.4ms | Allocations: 1827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 438.3ms | Allocations: 24036)
+Completed 200 OK in 441ms (Views: 439.4ms | Allocations: 24443)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:28:48 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.1ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 329.4ms | Allocations: 2278)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 370.6ms | Allocations: 24971)
+Completed 200 OK in 372ms (Views: 371.2ms | Allocations: 25378)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:29:02 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.4ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 467.8ms | Allocations: 1780)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 505.9ms | Allocations: 24474)
+Completed 200 OK in 507ms (Views: 506.3ms | Allocations: 24881)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:29:10 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 375.0ms | Allocations: 1782)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 412.7ms | Allocations: 23526)
+Completed 200 OK in 416ms (Views: 413.9ms | Allocations: 23933)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:29:31 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 0.9ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 355.6ms | Allocations: 1978)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 363.8ms | Allocations: 5948)
+Completed 200 OK in 367ms (Views: 365.1ms | Allocations: 6355)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:30:29 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.6ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 325.6ms | Allocations: 2027)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 332.9ms | Allocations: 5997)
+Completed 200 OK in 335ms (Views: 333.8ms | Allocations: 6404)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:30:38 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 1.3ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 387.6ms | Allocations: 2202)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 395.3ms | Allocations: 6172)
+Completed 200 OK in 398ms (Views: 396.3ms | Allocations: 6579)
+
+
+Started GET "/book_reviews/new?book_id=9781409091172" for 127.0.0.1 at 2021-09-30 14:30:49 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781409091172"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.0ms | Allocations: 296)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 395.0ms | Allocations: 2155)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 432.9ms | Allocations: 24385)
+Completed 200 OK in 437ms (Views: 434.1ms | Allocations: 24792)
+
+
+Started POST "/book_reviews" for 127.0.0.1 at 2021-09-30 14:30:56 +0100
+Processing by BookReviewsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book_review"=>{"book_id"=>"9781409091172", "body"=>"This is a nice review."}, "commit"=>"Finish up"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/book_reviews_controller.rb:17:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:19:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:19:in `create'
+  [1m[36mBookReview Create (0.3ms)[0m  [1m[32mINSERT INTO "book_reviews" ("book_id", "body", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["book_id", "9781409091172"], ["body", "This is a nice review."], ["created_at", "2021-09-30 13:30:56.091234"], ["updated_at", "2021-09-30 13:30:56.091234"], ["user_id", "1"]]
+  ↳ app/controllers/book_reviews_controller.rb:19:in `create'
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:19:in `create'
+Redirected to http://localhost:3000/book_reviews/5
+Completed 302 Found in 39ms (ActiveRecord: 4.1ms | Allocations: 11816)
+
+
+Started GET "/book_reviews/5" for 127.0.0.1 at 2021-09-30 14:30:56 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/show.html.erb within layouts/application
+  Rendered book_reviews/show.html.erb within layouts/application (Duration: 375.6ms | Allocations: 2280)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 382.4ms | Allocations: 5779)
+Completed 200 OK in 388ms (Views: 382.9ms | ActiveRecord: 0.3ms | Allocations: 7811)
+
+
+Started DELETE "/book_reviews/5" for 127.0.0.1 at 2021-09-30 14:30:59 +0100
+Processing by BookReviewsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mBookReview Load (0.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:42:in `destroy'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:43:in `destroy'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/policies/book_review_policy.rb:7:in `destroy?'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:44:in `destroy'
+  [1m[36mBookReview Destroy (1.0ms)[0m  [1m[31mDELETE FROM "book_reviews" WHERE "book_reviews"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/book_reviews_controller.rb:44:in `destroy'
+  [1m[36mTRANSACTION (12.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:44:in `destroy'
+Redirected to http://localhost:3000/book_reviews
+Completed 302 Found in 36ms (ActiveRecord: 13.7ms | Allocations: 6375)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-09-30 14:30:59 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.7ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 1648.2ms | Allocations: 8125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 1654.4ms | Allocations: 11586)
+Completed 200 OK in 1664ms (Views: 1654.3ms | ActiveRecord: 1.1ms | Allocations: 12932)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-09-30 14:31:40 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.4ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 1588.5ms | Allocations: 7258)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 1646.3ms | Allocations: 29491)
+Completed 200 OK in 1649ms (Views: 1646.3ms | ActiveRecord: 0.5ms | Allocations: 30719)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-09-30 14:31:53 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 1617.5ms | Allocations: 7531)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 1659.3ms | Allocations: 28787)
+Completed 200 OK in 1665ms (Views: 1659.6ms | ActiveRecord: 0.8ms | Allocations: 30005)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-09-30 14:32:17 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.5ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 1708.6ms | Allocations: 7198)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 1740.8ms | Allocations: 28972)
+Completed 200 OK in 1745ms (Views: 1741.1ms | ActiveRecord: 0.6ms | Allocations: 30188)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-09-30 14:32:32 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 1463.6ms | Allocations: 7408)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 1503.5ms | Allocations: 28664)
+Completed 200 OK in 1510ms (Views: 1503.7ms | ActiveRecord: 0.2ms | Allocations: 29880)
+
+
