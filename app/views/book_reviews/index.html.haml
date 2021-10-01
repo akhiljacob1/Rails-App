@@ -1,0 +1,22 @@
+!!!
+/ Bookreviews#index
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+  %body
+    %h3 My book reviews
+    .new-review
+      .btn
+        = link_to "New book review", search_path, class: "name-link"
+    .review-container
+      .row.row-cols-1.row-cols-md-6.g-4
+        - @book_reviews.each do |book_review|
+          - book = GoogleBooks.search("isbn:#{book_review.book_id}").first
+          .col
+            %a.card-link{:href => "#{book_review_path(book_review.id)}"}
+              .card.h-100
+                .image-container
+                  %img.card-img-top{:alt => "...", :src => "#{book.image_link}"}/
+                .card-body
+                  %h5.card-title= book.title
+                  %p.card-text= book_review.body

@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+  %body
+    .full-login
+      .left-login
+        .login-container
+          %h2 Log in
+          = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+            .mb-3
+              = f.label :email
+              %br/
+              = f.email_field :email, autofocus: true, placeholder: "example@email.com", autocomplete: "email"
+            .mb-3
+              = f.label :password
+              %br/
+              = f.password_field :password, placeholder: "Enter your password", autocomplete: "current-password"
+            - if devise_mapping.rememberable?
+              .field
+                = f.check_box :remember_me
+                = f.label :remember_me, class: "rememberable"
+            .actions
+              = f.submit "Log in"
+          .links
+            = render "devise/shared/links"
+      .right-img
+        = image_tag("dark_books", size: "160x100")

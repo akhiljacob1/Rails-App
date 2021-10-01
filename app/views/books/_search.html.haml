@@ -1,0 +1,6 @@
+.search-container
+  .bar
+    = form_tag("/new", method: "get") do
+      = text_field_tag(:q)
+  .search-btn
+    = submit_tag("Search")
