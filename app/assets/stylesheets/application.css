@@ -13,3 +13,97 @@
  *= require_tree .
  *= require_self
  */
+
+ /* The following block just resets the described in parameters for all elements.
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+*/
+
+/* The following block adjusts the size of body and html elements to maximum without showing scroll bar. */
+body, html {
+  height: 96%;
+  width: 99.4%;
+  color: bisque;
+  background-color: rgb(0, 0, 0);
+}
+
+
+
+#user_email, #user_password, #user_password_confirmation {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #292929;
+  background-clip: padding-box;
+  border: 1px solid #634e37;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/*
+div {
+  border: 1px solid rgb(255, 0, 0);
+}
+*/
+
+#user_email:focus, #user_password:focus, #user_password_confirmation:focus {
+  color: bisque;
+  background-color: #292929;
+  border-color: #BC9568;
+  outline: 0;
+}
+
+#user_email:hover, #user_password:hover, #user_password_confirmation:hover {
+  background-color: #3b3b3b;
+}
+
+input[type="submit"] {
+  background-color: #5a5a5a;
+  color: blanchedalmond;
+  font-size: medium;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #8d8d8d;
+}
+
+.field {
+  padding: 10px;
+}
+
+.rememberable {
+  font-size: 14px;
+}
+
+.links {
+  padding: 10px;
+  font-size: large;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #8d8d8d;
+}
+
+::placeholder {
+  color: #5a5a5a;
+}

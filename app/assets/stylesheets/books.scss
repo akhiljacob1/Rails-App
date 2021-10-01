@@ -9,6 +9,156 @@ a, a:hover, a:focus, a:active {
 }
 */
 
-.col {
-  border: 1px solid blue;
+h3 {
+  padding: 10px;
+}
+
+.review-container {
+  padding: 20px;
+}
+
+.image-container {
+  height: 200px;
+  background-color: black;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.card:hover {
+  background-color: rgb(29, 25, 25);
+  border: 1px solid rgb(59, 51, 51);
+}
+
+.card-title {
+  font-size: large;
+  color: rgb(167, 142, 142);
+  text-decoration: none;
+}
+
+.card-body {
+  background-color: transparent;
+}
+
+.card-text {
+  color: rgb(121, 100, 100);
+}
+
+.new-review {
+  text-align: center;
+  padding: 10px;
+}
+
+.btn {
+  background-color: rgb(70, 60, 60) !important;
+}
+
+
+.name-link {
+  font-size: large;
+  color: rgb(167, 142, 142) !important;
+  text-decoration: none;
+}
+
+.name-link:hover, .name-link:focus {
+  color: rgb(117, 99, 99);
+}
+
+.content {
+  position: absolute;
+  top: 50% !important;
+  left: 50%;
+  transform: translate(-50%, -80%) !important;
+  padding: 10px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #634e37;
+  border-radius: 20px;
+  padding: 0px 20px;
+  color: bisque;
+}
+
+input:hover {
+  background-color: #292929;
+  border: none;
+}
+
+.search-btn {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-img-top {
+  object-fit: contain;
+}
+
+.image-container {
+  background-color: rgb(29, 25, 25);
+}
+
+.cancel {
+  text-align: center;
+}
+
+.full-review {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.review-container {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  height: 500px;
+  min-width: 400px;
+  padding: 48px;
+}
+
+.left-review {
+  width: 50%;
+  transform: translate(0%, -30%);
+  min-width: 440px;
+}
+
+.right-pane {
+  width: 50%;
+  height: 100%;
+  background-color: #292929;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+textarea {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(70, 60, 60);
+  border: 1px solid #BC9568;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: bisque;
+}
+
+.title {
+  text-align: center;
+}
+
+.right-image {
+  height: 400px;
+}
+
+.meta {
+  display: flex;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2)
 }

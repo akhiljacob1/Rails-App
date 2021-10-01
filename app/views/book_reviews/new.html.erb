@@ -1,3 +1,44 @@
-<h1>New Bookreview</h1>
+<html>
+  <head></head>
+  <body>
+    <div class="full-review">
+      <div class="left-review">
+        <div class="review-container">
+          <h2>Write a review</h2>
 
-<%= render "form", book_review: @book_review %>
+          <%= render "form", book_review: @book_review %>
+        </div>
+      </div>
+
+      <div class="right-pane">
+        <% book = GoogleBooks.search("isbn:#{@book_review.book_id}").first %>
+        <div class="title">
+          <h2><%= book.title %></h2>
+        </div>
+        <div class="right-image">
+          <img src="<%= book.image_link %>" class="card-img-top" alt="...">
+        </div>
+        <div class="meta">
+          <div class=field>
+            Author:<br>
+            Publisher:<br>
+            Published date:<br>
+            ISBN:<br>
+            Pages:<br>
+            Rating:<br>
+            Description:<br>
+          </div>
+          <div class="field">
+            <%= book.authors %><br>
+            <%= book.publisher %><br>
+            <%= book.published_date %><br>
+            <%= book.isbn %><br>
+            <%= book.page_count %><br>
+            <%= book.average_rating %><br>
+            <%= book.description %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
