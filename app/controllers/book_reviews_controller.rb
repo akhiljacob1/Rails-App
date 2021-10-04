@@ -18,7 +18,7 @@ class BookReviewsController < ApplicationController
     @book_review.user_id = current_user.id
 
     if @book_review.save
-      UserMailer.with(user: @user).welcome_email.deliver_now
+      UserMailer.with(user: @user).first_review.deliver_now
       redirect_to @book_review, notice: "Book review created."
     else
       render :new

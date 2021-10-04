@@ -28573,3 +28573,588 @@ Processing by BookReviewsController#index as HTML
 Completed 200 OK in 1526ms (Views: 1520.8ms | ActiveRecord: 0.4ms | Allocations: 12268)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-04 17:23:53 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 15.3ms | Allocations: 5629)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.9ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 9673)
+Completed 200 OK in 40ms (Views: 31.5ms | ActiveRecord: 0.0ms | Allocations: 12490)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-10-04 17:23:55 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 672)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 198.9ms | Allocations: 356660)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 201.4ms | Allocations: 359968)
+Completed 200 OK in 233ms (Views: 213.1ms | ActiveRecord: 1.8ms | Allocations: 366374)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-10-04 17:23:57 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"jacob@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 380)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"jacob@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 163)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1583)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 43)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 4936)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 5455)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-10-04 17:24:00 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"jacob@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "jacob@email.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 196ms (ActiveRecord: 0.3ms | Allocations: 4767)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-04 17:24:00 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:12
+  Rendered pages/home.html.erb within layouts/application (Duration: 9.2ms | Allocations: 2146)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 56)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 5382)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.3ms | Allocations: 5772)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-10-04 17:24:02 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (1.0ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+Started GET "/book_reviews" for 127.0.0.1 at 2021-10-04 17:24:02 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.3ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 2080.7ms | Allocations: 11342)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 2089.8ms | Allocations: 14743)
+Completed 200 OK in 2099ms (Views: 2090.4ms | ActiveRecord: 1.3ms | Allocations: 16693)
+
+
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 3112.5ms | Allocations: 28964)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 3118.9ms | Allocations: 32320)
+Completed 200 OK in 3132ms (Views: 3119.9ms | ActiveRecord: 2.4ms | Allocations: 34647)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-10-04 17:24:06 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_search.html.erb (Duration: 0.6ms | Allocations: 276)
+  Rendered books/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 670)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4062)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 5031)
+
+
+Started GET "/new?q=audacity" for 127.0.0.1 at 2021-10-04 17:24:09 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"audacity"}
+  Rendering layout layouts/application.html.erb
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 4837)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 8239)
+Completed 200 OK in 926ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 10836)
+
+
+Started GET "/book_reviews/new?book_id=9780698172579" for 127.0.0.1 at 2021-10-04 17:24:12 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9780698172579"}
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/new.html.erb within layouts/application
+  Rendered book_reviews/_form.html.erb (Duration: 2.7ms | Allocations: 743)
+  Rendered book_reviews/new.html.erb within layouts/application (Duration: 463.4ms | Allocations: 2750)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 468.2ms | Allocations: 6147)
+Completed 200 OK in 471ms (Views: 468.9ms | ActiveRecord: 0.0ms | Allocations: 6680)
+
+
+Started POST "/book_reviews" for 127.0.0.1 at 2021-10-04 17:24:14 +0100
+Processing by BookReviewsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book_review"=>{"book_id"=>"9780698172579", "body"=>"This"}, "commit"=>"Finish up"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mBookReview Create (0.5ms)[0m  [1m[32mINSERT INTO "book_reviews" ("book_id", "body", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["book_id", "9780698172579"], ["body", "This"], ["created_at", "2021-10-04 16:24:14.494046"], ["updated_at", "2021-10-04 16:24:14.494046"], ["user_id", "1"]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (23.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+UserMailer#welcome_email: processed outbound mail in 1.7ms
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 24.6ms | Allocations: 38327)
+
+
+  
+ActionView::MissingTemplate (Missing template user_mailer/welcome_email with "mailer". Searched in:
+  * "user_mailer"
+):
+  
+app/mailers/user_mailer.rb:7:in `welcome_email'
+app/controllers/book_reviews_controller.rb:21:in `create'
+Started POST "/book_reviews" for 127.0.0.1 at 2021-10-04 17:24:29 +0100
+Processing by BookReviewsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book_review"=>{"book_id"=>"9780698172579", "body"=>"This"}, "commit"=>"Finish up"}
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/book_reviews_controller.rb:16:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mBookReview Create (0.3ms)[0m  [1m[32mINSERT INTO "book_reviews" ("book_id", "body", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["book_id", "9780698172579"], ["body", "This"], ["created_at", "2021-10-04 16:24:29.368135"], ["updated_at", "2021-10-04 16:24:29.368135"], ["user_id", "1"]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (14.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 17.5ms | Allocations: 17849)
+
+
+  
+NoMethodError (undefined method `first_review' for #<ActionMailer::Parameterized::Mailer:0x00007f25c0057f48>):
+  
+app/controllers/book_reviews_controller.rb:21:in `create'
+Started POST "/book_reviews" for 127.0.0.1 at 2021-10-04 17:24:57 +0100
+Processing by BookReviewsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book_review"=>{"book_id"=>"9780698172579", "body"=>"This"}, "commit"=>"Finish up"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/book_reviews_controller.rb:16:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mBookReview Create (0.1ms)[0m  [1m[32mINSERT INTO "book_reviews" ("book_id", "body", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["book_id", "9780698172579"], ["body", "This"], ["created_at", "2021-10-04 16:24:57.379739"], ["updated_at", "2021-10-04 16:24:57.379739"], ["user_id", "1"]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (26.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/first_review.html.erb within layouts/mailer
+  Rendered user_mailer/first_review.html.erb within layouts/mailer (Duration: 2.6ms | Allocations: 3070)
+  Rendered layout layouts/mailer.html.erb (Duration: 2.7ms | Allocations: 3141)
+UserMailer#first_review: processed outbound mail in 4.4ms
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 28.7ms | Allocations: 22389)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<User:0x00007f25b5220128>):
+    4:     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    5:   </head>
+    6:   <body>
+    7:     <h1>Congatulations, <%= @user.name %>!</h1>
+    8:     <% book = GoogleBooks.search("isbn:#{@book_review.book_id}").first %>
+    9:     <p>
+   10:       You have successfully created your first book review on <%= @book.title %>.<br>
+  
+app/views/user_mailer/first_review.html.erb:7
+app/mailers/user_mailer.rb:7:in `first_review'
+app/controllers/book_reviews_controller.rb:21:in `create'
+Started POST "/book_reviews" for 127.0.0.1 at 2021-10-04 17:25:33 +0100
+Processing by BookReviewsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book_review"=>{"book_id"=>"9780698172579", "body"=>"This"}, "commit"=>"Finish up"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mBookReview Create (0.3ms)[0m  [1m[32mINSERT INTO "book_reviews" ("book_id", "body", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["book_id", "9780698172579"], ["body", "This"], ["created_at", "2021-10-04 16:25:33.546372"], ["updated_at", "2021-10-04 16:25:33.546372"], ["user_id", "1"]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (20.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/first_review.html.erb within layouts/mailer
+  Rendered user_mailer/first_review.html.erb within layouts/mailer (Duration: 2.7ms | Allocations: 1561)
+  Rendered layout layouts/mailer.html.erb (Duration: 3.3ms | Allocations: 1631)
+UserMailer#first_review: processed outbound mail in 5.5ms
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 21.2ms | Allocations: 9943)
+
+
+  
+ActionView::Template::Error (undefined method `book_id' for nil:NilClass):
+     5:   </head>
+     6:   <body>
+     7:     <h1>Congatulations, <%= @user.email %>!</h1>
+     8:     <% book = GoogleBooks.search("isbn:#{@book_review.book_id}").first %>
+     9:     <p>
+    10:       You have successfully created your first book review on <%= @book.title %>.<br>
+    11:     </p>
+  
+app/views/user_mailer/first_review.html.erb:8
+app/mailers/user_mailer.rb:7:in `first_review'
+app/controllers/book_reviews_controller.rb:21:in `create'
+Started POST "/book_reviews" for 127.0.0.1 at 2021-10-04 17:27:41 +0100
+Processing by BookReviewsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book_review"=>{"book_id"=>"9780698172579", "body"=>"This"}, "commit"=>"Finish up"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mBookReview Create (0.4ms)[0m  [1m[32mINSERT INTO "book_reviews" ("book_id", "body", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["book_id", "9780698172579"], ["body", "This"], ["created_at", "2021-10-04 16:27:41.130610"], ["updated_at", "2021-10-04 16:27:41.130610"], ["user_id", "1"]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (34.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  Rendering layout layouts/mailer.html.erb
+  Rendering user_mailer/first_review.html.erb within layouts/mailer
+  Rendered user_mailer/first_review.html.erb within layouts/mailer (Duration: 0.6ms | Allocations: 153)
+  Rendered layout layouts/mailer.html.erb (Duration: 1.1ms | Allocations: 341)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/first_review.text.erb within layouts/mailer
+  Rendered user_mailer/first_review.text.erb within layouts/mailer (Duration: 0.2ms | Allocations: 139)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.4ms | Allocations: 304)
+UserMailer#first_review: processed outbound mail in 14.8ms
+Delivered mail 615b2b7d2e50a_51a22afa322495bc6495@akhil-asus.mail (21.3ms)
+Date: Mon, 04 Oct 2021 17:27:41 +0100
+From: notifications@example.com
+To: jacob@email.com
+Message-ID: <615b2b7d2e50a_51a22afa322495bc6495@akhil-asus.mail>
+Subject: Congratulations on your first review!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_615b2b7d2d12d_51a22afa322495bc631";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_615b2b7d2d12d_51a22afa322495bc631
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Congratulations, jacob@email.com!
+===============================================
+
+You have successfully created your first book review.
+
+----==_mimepart_615b2b7d2d12d_51a22afa322495bc631
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Congratulations, jacob@email.com!</h1>
+    <p>
+      You have successfully created your first book review.<br>
+    </p>
+  </body>
+</html>
+
+  </body>
+</html>
+
+----==_mimepart_615b2b7d2d12d_51a22afa322495bc631--
+
+Redirected to http://localhost:3000/book_reviews/9
+Completed 302 Found in 92ms (ActiveRecord: 35.4ms | Allocations: 43452)
+
+
+Started GET "/book_reviews/9" for 127.0.0.1 at 2021-10-04 17:27:41 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.4ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/show.html.erb within layouts/application
+  Rendered book_reviews/show.html.erb within layouts/application (Duration: 4839.2ms | Allocations: 3636)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 4847.8ms | Allocations: 7600)
+Completed 200 OK in 4871ms (Views: 4852.3ms | ActiveRecord: 0.7ms | Allocations: 10883)
+
+
+Started DELETE "/book_reviews/9" for 127.0.0.1 at 2021-10-04 17:28:12 +0100
+Processing by BookReviewsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"9"}
+  [1m[36mBookReview Load (0.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:44:in `destroy'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:45:in `destroy'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/policies/book_review_policy.rb:7:in `destroy?'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mBookReview Destroy (1.6ms)[0m  [1m[31mDELETE FROM "book_reviews" WHERE "book_reviews"."id" = ?[0m  [["id", 9]]
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mTRANSACTION (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+Redirected to http://localhost:3000/book_reviews
+Completed 302 Found in 18ms (ActiveRecord: 7.9ms | Allocations: 5998)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-10-04 17:28:12 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 3241.4ms | Allocations: 14452)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 3265.2ms | Allocations: 17853)
+Completed 200 OK in 3269ms (Views: 3265.4ms | ActiveRecord: 0.3ms | Allocations: 19199)
+
+
+Started GET "/book_reviews/7" for 127.0.0.1 at 2021-10-04 17:28:18 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/show.html.erb within layouts/application
+  Rendered book_reviews/show.html.erb within layouts/application (Duration: 771.0ms | Allocations: 3247)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 775.5ms | Allocations: 6644)
+Completed 200 OK in 784ms (Views: 776.1ms | ActiveRecord: 0.3ms | Allocations: 8527)
+
+
+Started DELETE "/book_reviews/7" for 127.0.0.1 at 2021-10-04 17:28:23 +0100
+Processing by BookReviewsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"7"}
+  [1m[36mBookReview Load (0.7ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:44:in `destroy'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:45:in `destroy'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/policies/book_review_policy.rb:7:in `destroy?'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mBookReview Destroy (0.6ms)[0m  [1m[31mDELETE FROM "book_reviews" WHERE "book_reviews"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mTRANSACTION (12.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+Redirected to http://localhost:3000/book_reviews
+Completed 302 Found in 34ms (ActiveRecord: 14.1ms | Allocations: 6217)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-10-04 17:28:23 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 2984.8ms | Allocations: 12641)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 2990.6ms | Allocations: 16037)
+Completed 200 OK in 2994ms (Views: 2991.0ms | ActiveRecord: 0.3ms | Allocations: 17253)
+
+
+Started GET "/book_reviews/5" for 127.0.0.1 at 2021-10-04 17:28:28 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/show.html.erb within layouts/application
+  Rendered book_reviews/show.html.erb within layouts/application (Duration: 1091.6ms | Allocations: 3482)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 1098.4ms | Allocations: 6878)
+Completed 200 OK in 1106ms (Views: 1098.9ms | ActiveRecord: 0.3ms | Allocations: 8759)
+
+
+Started DELETE "/book_reviews/5" for 127.0.0.1 at 2021-10-04 17:28:31 +0100
+Processing by BookReviewsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"5"}
+  [1m[36mBookReview Load (0.3ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:44:in `destroy'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:45:in `destroy'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/policies/book_review_policy.rb:7:in `destroy?'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mBookReview Destroy (0.3ms)[0m  [1m[31mDELETE FROM "book_reviews" WHERE "book_reviews"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mTRANSACTION (20.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+Redirected to http://localhost:3000/book_reviews
+Completed 302 Found in 40ms (ActiveRecord: 22.0ms | Allocations: 6218)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-10-04 17:28:31 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.5ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 2218.4ms | Allocations: 10974)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 2224.1ms | Allocations: 14370)
+Completed 200 OK in 2231ms (Views: 2225.0ms | ActiveRecord: 1.2ms | Allocations: 15586)
+
+
+Started GET "/book_reviews/6" for 127.0.0.1 at 2021-10-04 17:28:34 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/show.html.erb within layouts/application
+  Rendered book_reviews/show.html.erb within layouts/application (Duration: 697.3ms | Allocations: 3405)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 700.2ms | Allocations: 6801)
+Completed 200 OK in 709ms (Views: 700.8ms | ActiveRecord: 0.4ms | Allocations: 8682)
+
+
+Started DELETE "/book_reviews/6" for 127.0.0.1 at 2021-10-04 17:28:37 +0100
+Processing by BookReviewsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"6"}
+  [1m[36mBookReview Load (0.3ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:44:in `destroy'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:45:in `destroy'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/policies/book_review_policy.rb:7:in `destroy?'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mBookReview Destroy (0.6ms)[0m  [1m[31mDELETE FROM "book_reviews" WHERE "book_reviews"."id" = ?[0m  [["id", 6]]
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mTRANSACTION (10.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+Redirected to http://localhost:3000/book_reviews
+Completed 302 Found in 24ms (ActiveRecord: 12.0ms | Allocations: 6218)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-10-04 17:28:37 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 2014.8ms | Allocations: 9462)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 2017.8ms | Allocations: 12858)
+Completed 200 OK in 2020ms (Views: 2018.1ms | ActiveRecord: 0.2ms | Allocations: 14074)
+
+
+Started GET "/book_reviews/8" for 127.0.0.1 at 2021-10-04 17:30:27 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/show.html.erb within layouts/application
+  Rendered book_reviews/show.html.erb within layouts/application (Duration: 1653.6ms | Allocations: 5313)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 1683.4ms | Allocations: 13318)
+Completed 200 OK in 1747ms (Views: 1686.1ms | ActiveRecord: 2.3ms | Allocations: 26776)
+
+
+Started DELETE "/book_reviews/8" for 127.0.0.1 at 2021-10-04 17:30:32 +0100
+Processing by BookReviewsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"8"}
+  [1m[36mBookReview Load (0.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:44:in `destroy'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:45:in `destroy'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/policies/book_review_policy.rb:7:in `destroy?'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mBookReview Destroy (1.0ms)[0m  [1m[31mDELETE FROM "book_reviews" WHERE "book_reviews"."id" = ?[0m  [["id", 8]]
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+  [1m[36mTRANSACTION (22.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/book_reviews_controller.rb:46:in `destroy'
+Redirected to http://localhost:3000/book_reviews
+Completed 302 Found in 85ms (ActiveRecord: 23.8ms | Allocations: 8223)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-10-04 17:30:32 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering book_reviews/index.html.erb within layouts/application
+  [1m[36mBookReview Load (0.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.erb:16
+  Rendered book_reviews/index.html.erb within layouts/application (Duration: 1655.1ms | Allocations: 8257)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 55)
+  Rendered layout layouts/application.html.erb (Duration: 1663.3ms | Allocations: 11661)
+Completed 200 OK in 1671ms (Views: 1663.9ms | ActiveRecord: 0.6ms | Allocations: 13011)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
