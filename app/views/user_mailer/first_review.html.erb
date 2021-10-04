@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Congatulations, <%= @user.name %>!</h1>
+    <% book = GoogleBooks.search("isbn:#{@book_review.book_id}").first %>
+    <p>
+      You have successfully created your first book review on <%= @book.title %>.<br>
+    </p>
+  </body>
+</html>

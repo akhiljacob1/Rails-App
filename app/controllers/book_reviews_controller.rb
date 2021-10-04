@@ -13,11 +13,13 @@ class BookReviewsController < ApplicationController
   end
 
   def create
+    @user = current_user
     @book_review = BookReview.new(book_review_params)
     @book_review.user_id = current_user.id
 
     if @book_review.save
-      redirect_to @book_review
+      UserMailer.with(user: @user).welcome_email.deliver_now
+      redirect_to @book_review, notice: "Book review created."
     else
       render :new
     end
