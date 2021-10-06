@@ -9,22 +9,7 @@ RSpec.describe BookReview, type: :model do
                         updated_at: DateTime.now + 1.week)
   end
 
-  it 'is valid with valid attributes' do
-    expect(subject).to be_valid
-  end
-
-  it 'is not valid without a book_id' do
-    subject.book_id = nil
-    expect(subject).to_not be_valid
-  end
-  
-  it 'is not valid without a user_id' do
-    subject.user_id = nil
-    expect(subject).to_not be_valid
-  end
-  
-  it 'is not valid without a body' do
-    subject.body = nil
-    expect(subject).to_not be_valid
-  end
+  it { should belong_to(:user) }
+  it { is_expected.to validate_presence_of(:book_id) }
+  it { is_expected.to validate_presence_of(:body) }
 end

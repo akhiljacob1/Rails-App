@@ -13,7 +13,7 @@ describe 'Book review', type: :feature do
     click_on 'Log in'
   end
 
-  describe 'index' do
+  describe 'lannding' do
     context 'when logged in' do
       before do
         sign_in
@@ -25,6 +25,19 @@ describe 'Book review', type: :feature do
 
       it 'shows Book reviews link' do
         expect(page).to have_content 'Book reviews'
+      end
+    end
+  end
+  
+  describe 'index' do
+    context 'when logged in' do
+      before do
+        sign_in
+        click_on 'Book reviews'
+      end
+
+      it 'shows user reviews' do
+        expect(page).to have_content 'Deception Point'
       end
     end
   end
