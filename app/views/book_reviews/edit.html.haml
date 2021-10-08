@@ -1,0 +1,46 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+  %body
+    .full-review
+      .left-review
+        .review-container
+          %h2 Edit Bookreview
+          = render "form", book_review: @book_review
+      .right-pane
+        - book = GoogleBooks.search("isbn:#{@book_review.book_id}").first
+        .title
+          %h2= book.title
+        .right-image
+          %img.card-img-top{:alt => "...", :src => "#{book.image_link}"}/
+        .meta
+          .field
+            Author:
+            %br/
+            Publisher:
+            %br/
+            Published date:
+            %br/
+            ISBN:
+            %br/
+            Pages:
+            %br/
+            Rating:
+            %br/
+            Description:
+            %br/
+          .field
+            = book.authors
+            %br/
+            = book.publisher
+            %br/
+            = book.published_date
+            %br/
+            = book.isbn
+            %br/
+            = book.page_count
+            %br/
+            = book.average_rating
+            %br/
+            = book.description

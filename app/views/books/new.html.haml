@@ -1,0 +1,9 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+  %body
+    .content
+      %h1 Find a book to review
+      = render "books/search"
+      = link_to "Cancel", book_reviews_path, class: "nav-link"
