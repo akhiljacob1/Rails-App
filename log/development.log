@@ -29345,3 +29345,511 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.0ms | Allocations: 19380)
 
 
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-10-21 14:20:09 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"jacob@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "jacob@email.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 12ms (ActiveRecord: 1.6ms | Allocations: 4700)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"jacob@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 0.2ms | Allocations: 186)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 2.7ms | Allocations: 1705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.1ms | Allocations: 56)
+  Rendered layout layouts/application.html.haml (Duration: 8.5ms | Allocations: 5394)
+Completed 200 OK in 195ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6575)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-10-21 14:20:11 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/registrations/new.html.haml within layouts/application
+  Rendered devise/shared/_error_messages.html.haml (Duration: 1.9ms | Allocations: 2144)
+  Rendered devise/shared/_links.html.haml (Duration: 0.9ms | Allocations: 167)
+  Rendered devise/registrations/new.html.haml within layouts/application (Duration: 13.9ms | Allocations: 9318)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.2ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 17.2ms | Allocations: 12452)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 13802)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-10-21 14:20:16 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"jacob@email.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "jacob@email.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "jacob@email.com"], ["encrypted_password", "$2a$12$skY6xgeScSsBXdQIPrF5XOpsyiRnhBuiTFletICQd8qxa.ENbbXlG"], ["created_at", "2021-10-21 13:20:16.376488"], ["updated_at", "2021-10-21 13:20:16.376488"]]
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/mailers/user_mailer.rb:11:in `welcome_email'
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (Duration: 1.3ms | Allocations: 138)
+  Rendered layout layouts/mailer.text.erb (Duration: 1.8ms | Allocations: 301)
+  Rendering layout layouts/mailer.html.haml
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (Duration: 0.3ms | Allocations: 143)
+  Rendered layout layouts/mailer.html.haml (Duration: 3.6ms | Allocations: 2729)
+UserMailer#welcome_email: processed outbound mail in 20.0ms
+Delivered mail 6171691065d68_55251045098486@akhil-asus.mail (19.7ms)
+Date: Thu, 21 Oct 2021 14:20:16 +0100
+From: notifications@example.com
+To: jacob@email.com
+Message-ID: <6171691065d68_55251045098486@akhil-asus.mail>
+Subject: Welcome
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6171691065028_552510450983ee";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_6171691065028_552510450983ee
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to Reviewly.
+===============================================
+
+You have successfully signed up to Reviewly.
+
+Thanks for joining and have a great day!
+
+
+----==_mimepart_6171691065028_552510450983ee
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<style>
+  /* Email styles need to be inline */
+</style>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Reviewly, jacob@email.com</h1>
+    <p>
+      You have successfully signed up to Reviewly.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+</body>
+</html>
+
+----==_mimepart_6171691065028_552510450983ee--
+
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 266ms (ActiveRecord: 4.1ms | Allocations: 77225)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-21 14:20:16 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering pages/home.html.haml within layouts/application
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.haml:12
+  Rendered pages/home.html.haml within layouts/application (Duration: 17.1ms | Allocations: 5964)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.3ms | Allocations: 73)
+  Rendered layout layouts/application.html.haml (Duration: 26.6ms | Allocations: 8997)
+Completed 200 OK in 32ms (Views: 27.7ms | ActiveRecord: 1.5ms | Allocations: 10166)
+
+
+Started GET "/book_reviews" for 127.0.0.1 at 2021-10-21 14:20:20 +0100
+Processing by BookReviewsController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:3:in `index'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/index.html.haml within layouts/application
+  [1m[36mBookReview Load (1.2ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews"[0m
+  ↳ app/views/book_reviews/index.html.haml:13
+  Rendered book_reviews/index.html.haml within layouts/application (Duration: 7.4ms | Allocations: 7842)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.3ms | Allocations: 70)
+  Rendered layout layouts/application.html.haml (Duration: 13.0ms | Allocations: 11085)
+Completed 200 OK in 20ms (Views: 13.0ms | ActiveRecord: 2.0ms | Allocations: 13657)
+
+
+Started GET "/search" for 127.0.0.1 at 2021-10-21 14:20:21 +0100
+Processing by BooksController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering books/new.html.haml within layouts/application
+  Rendered books/_search.html.haml (Duration: 2.5ms | Allocations: 2381)
+  Rendered books/new.html.haml within layouts/application (Duration: 5.9ms | Allocations: 5299)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.1ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 11.7ms | Allocations: 8524)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 9600)
+
+
+Started GET "/new?q=The+great+gatsby" for 127.0.0.1 at 2021-10-21 14:20:26 +0100
+Processing by BooksController#index as HTML
+  Parameters: {"q"=>"The great gatsby"}
+  Rendering layout layouts/application.html.haml
+  Rendering books/index.html.haml within layouts/application
+  Rendered books/index.html.haml within layouts/application (Duration: 14.8ms | Allocations: 10968)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.3ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 24.5ms | Allocations: 14198)
+Completed 200 OK in 983ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 17248)
+
+
+Started GET "/book_reviews/new" for 127.0.0.1 at 2021-10-21 14:20:28 +0100
+Processing by BookReviewsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/new.html.haml within layouts/application
+  Rendered book_reviews/_form.html.haml (Duration: 2.3ms | Allocations: 2784)
+  Rendered book_reviews/new.html.haml within layouts/application (Duration: 669.6ms | Allocations: 12209)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.1ms | Allocations: 66)
+  Rendered layout layouts/application.html.haml (Duration: 674.4ms | Allocations: 15417)
+Completed 200 OK in 687ms (Views: 675.0ms | ActiveRecord: 4.4ms | Allocations: 19182)
+
+
+Started GET "/book_reviews/new?book_id=9780486845593" for 127.0.0.1 at 2021-10-21 14:20:33 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9780486845593"}
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/new.html.haml within layouts/application
+  Rendered book_reviews/_form.html.haml (Duration: 1.3ms | Allocations: 442)
+  Rendered book_reviews/new.html.haml within layouts/application (Duration: 476.9ms | Allocations: 1878)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.1ms | Allocations: 66)
+  Rendered layout layouts/application.html.haml (Duration: 480.9ms | Allocations: 5187)
+Completed 200 OK in 483ms (Views: 481.5ms | ActiveRecord: 0.0ms | Allocations: 5661)
+
+
+Started GET "/book_reviews/new?book_id=9781949846416" for 127.0.0.1 at 2021-10-21 14:20:35 +0100
+Processing by BookReviewsController#new as HTML
+  Parameters: {"book_id"=>"9781949846416"}
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/new.html.haml within layouts/application
+  Rendered book_reviews/_form.html.haml (Duration: 0.9ms | Allocations: 441)
+  Rendered book_reviews/new.html.haml within layouts/application (Duration: 352.1ms | Allocations: 2192)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.1ms | Allocations: 66)
+  Rendered layout layouts/application.html.haml (Duration: 357.5ms | Allocations: 5501)
+Completed 200 OK in 359ms (Views: 358.0ms | ActiveRecord: 0.0ms | Allocations: 5975)
+
+
+Started POST "/book_reviews" for 127.0.0.1 at 2021-10-21 14:20:46 +0100
+Processing by BookReviewsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "book_review"=>{"book_id"=>"9781949846416", "body"=>"This is a good book."}, "commit"=>"Finish up"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mBookReview Create (1.9ms)[0m  [1m[32mINSERT INTO "book_reviews" ("book_id", "body", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["book_id", "9781949846416"], ["body", "This is a good book."], ["created_at", "2021-10-21 13:20:46.412137"], ["updated_at", "2021-10-21 13:20:46.412137"], ["user_id", 2]]
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (8.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/book_reviews_controller.rb:20:in `create'
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "book_reviews" WHERE "book_reviews"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/controllers/book_reviews_controller.rb:21:in `create'
+  Rendering layout layouts/mailer.html.haml
+  Rendering user_mailer/first_review.html.erb within layouts/mailer
+  Rendered user_mailer/first_review.html.erb within layouts/mailer (Duration: 0.3ms | Allocations: 140)
+  Rendered layout layouts/mailer.html.haml (Duration: 0.5ms | Allocations: 229)
+  Rendering layout layouts/mailer.text.erb
+  Rendering user_mailer/first_review.text.erb within layouts/mailer
+  Rendered user_mailer/first_review.text.erb within layouts/mailer (Duration: 0.2ms | Allocations: 122)
+  Rendered layout layouts/mailer.text.erb (Duration: 0.3ms | Allocations: 198)
+UserMailer#first_review: processed outbound mail in 3.4ms
+Delivered mail 6171692e6a540_552510450986b1@akhil-asus.mail (18.2ms)
+Date: Thu, 21 Oct 2021 14:20:46 +0100
+From: notifications@example.com
+To: jacob@email.com
+Message-ID: <6171692e6a540_552510450986b1@akhil-asus.mail>
+Subject: Congratulations on your first review!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6171692e69c02_552510450985b8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_6171692e69c02_552510450985b8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Congratulations, jacob@email.com!
+===============================================
+
+You have successfully created your first book review.
+
+----==_mimepart_6171692e69c02_552510450985b8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<style>
+  /* Email styles need to be inline */
+</style>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Congratulations, jacob@email.com!</h1>
+    <p>
+      You have successfully created your first book review.<br>
+    </p>
+  </body>
+</html>
+
+</body>
+</html>
+
+----==_mimepart_6171692e69c02_552510450985b8--
+
+Redirected to http://localhost:3000/book_reviews/2
+Completed 302 Found in 70ms (ActiveRecord: 15.7ms | Allocations: 43369)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:20:46 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.9ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 736.1ms | Allocations: 11291)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.3ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 744.6ms | Allocations: 14521)
+Completed 200 OK in 759ms (Views: 745.5ms | ActiveRecord: 2.4ms | Allocations: 16842)
+
+
+Started GET "/book_reviews/1" for 127.0.0.1 at 2021-10-21 14:20:53 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.9ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+Completed 404 Not Found in 13ms (ActiveRecord: 2.3ms | Allocations: 2298)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find BookReview with 'id'=1):
+  
+app/controllers/book_reviews_controller.rb:7:in `show'
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:20:57 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (1.5ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 806.1ms | Allocations: 2962)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.2ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 814.0ms | Allocations: 6298)
+Completed 200 OK in 823ms (Views: 814.8ms | ActiveRecord: 2.0ms | Allocations: 8442)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:21:11 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.6ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 820.0ms | Allocations: 3539)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.2ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 883.1ms | Allocations: 23067)
+Completed 200 OK in 894ms (Views: 883.6ms | ActiveRecord: 2.0ms | Allocations: 25214)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:21:40 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.4ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 965.5ms | Allocations: 3365)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.2ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 1033.0ms | Allocations: 23117)
+Completed 200 OK in 1042ms (Views: 1033.4ms | ActiveRecord: 1.0ms | Allocations: 25257)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:22:06 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (1.4ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 743.5ms | Allocations: 3324)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.1ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 799.2ms | Allocations: 22027)
+Completed 200 OK in 810ms (Views: 800.0ms | ActiveRecord: 2.2ms | Allocations: 24173)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:22:15 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.4ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 826.1ms | Allocations: 3103)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.2ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 881.4ms | Allocations: 23116)
+Completed 200 OK in 890ms (Views: 881.7ms | ActiveRecord: 1.0ms | Allocations: 25258)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:22:26 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (1.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 844.3ms | Allocations: 3181)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.3ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 900.8ms | Allocations: 24628)
+Completed 200 OK in 911ms (Views: 901.3ms | ActiveRecord: 2.2ms | Allocations: 26768)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:22:35 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (1.0ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 782.8ms | Allocations: 2991)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.2ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 833.5ms | Allocations: 23498)
+Completed 200 OK in 843ms (Views: 834.3ms | ActiveRecord: 1.9ms | Allocations: 25638)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:23:00 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.6ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 805.6ms | Allocations: 3256)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.6ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 817.1ms | Allocations: 7107)
+Completed 200 OK in 830ms (Views: 817.6ms | ActiveRecord: 2.7ms | Allocations: 9247)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:23:10 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (1.5ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 745.4ms | Allocations: 2990)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.3ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 755.8ms | Allocations: 6841)
+Completed 200 OK in 768ms (Views: 756.6ms | ActiveRecord: 3.1ms | Allocations: 8981)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:23:25 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (2.0ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 900.0ms | Allocations: 3033)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.8ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 950.4ms | Allocations: 22582)
+Completed 200 OK in 963ms (Views: 950.8ms | ActiveRecord: 3.3ms | Allocations: 24722)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:23:44 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (1.1ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 715.6ms | Allocations: 3234)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.2ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 728.1ms | Allocations: 7085)
+Completed 200 OK in 739ms (Views: 729.2ms | ActiveRecord: 2.4ms | Allocations: 9225)
+
+
+Started GET "/book_reviews/2" for 127.0.0.1 at 2021-10-21 14:23:53 +0100
+Processing by BookReviewsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  [1m[36mBookReview Load (0.7ms)[0m  [1m[34mSELECT "book_reviews".* FROM "book_reviews" WHERE "book_reviews"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/book_reviews_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.haml
+  Rendering book_reviews/show.html.haml within layouts/application
+  Rendered book_reviews/show.html.haml within layouts/application (Duration: 870.2ms | Allocations: 3036)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.2ms | Allocations: 68)
+  Rendered layout layouts/application.html.haml (Duration: 884.6ms | Allocations: 6887)
+Completed 200 OK in 901ms (Views: 892.0ms | ActiveRecord: 1.4ms | Allocations: 9027)
+
+
