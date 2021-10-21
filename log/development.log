@@ -29284,3 +29284,64 @@ Migrating to ChangeStringToText (20211020115234)
   [1m[35m (1.9ms)[0m  [1m[35mALTER TABLE "book_reviews" ALTER COLUMN "user_id" TYPE text[0m
   [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(5730675546677663085)[0m
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-10-21 14:14:13 +0100
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 1.9ms | Allocations: 2866)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 201.8ms | Allocations: 356142)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 2.6ms | Allocations: 1906)
+  Rendered layout layouts/application.html.haml (Duration: 219.9ms | Allocations: 364736)
+Completed 200 OK in 245ms (Views: 222.9ms | ActiveRecord: 7.8ms | Allocations: 373298)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-10-21 14:15:18 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 1.0ms | Allocations: 186)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 5.1ms | Allocations: 1705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.9ms | Allocations: 66)
+  Rendered layout layouts/application.html.haml (Duration: 96.6ms | Allocations: 42227)
+Completed 200 OK in 100ms (Views: 97.3ms | ActiveRecord: 0.0ms | Allocations: 42904)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-10-21 14:15:36 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 0.4ms | Allocations: 186)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 7.2ms | Allocations: 1705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.1ms | Allocations: 66)
+  Rendered layout layouts/application.html.haml (Duration: 82.1ms | Allocations: 18190)
+Completed 200 OK in 86ms (Views: 83.2ms | ActiveRecord: 0.0ms | Allocations: 18864)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-10-21 14:15:46 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 0.2ms | Allocations: 186)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 2.5ms | Allocations: 1705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 0.1ms | Allocations: 66)
+  Rendered layout layouts/application.html.haml (Duration: 5.6ms | Allocations: 5437)
+Completed 200 OK in 10ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 6115)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-10-21 14:16:01 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering devise/sessions/new.html.haml within layouts/application
+  Rendered devise/shared/_links.html.haml (Duration: 0.7ms | Allocations: 186)
+  Rendered devise/sessions/new.html.haml within layouts/application (Duration: 6.2ms | Allocations: 1705)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_alerts.html.haml (Duration: 1.2ms | Allocations: 66)
+  Rendered layout layouts/application.html.haml (Duration: 67.6ms | Allocations: 18717)
+Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.0ms | Allocations: 19380)
+
+

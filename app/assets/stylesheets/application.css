@@ -87,6 +87,11 @@ input[type="submit"]:hover {
   background-color: #8d8d8d;
 }
 
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+}
+
 .field {
   padding: 10px;
 }
