@@ -131,6 +131,7 @@ input:hover {
 .right-pane {
   width: 50%;
   height: 100%;
+  overflow: scroll;
   background-color: #292929;
   border-radius: 40px;
   padding: 10px;

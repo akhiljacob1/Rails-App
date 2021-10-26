@@ -1,2 +1,4 @@
-
 *.cache
+tmp/cache/
+tmp/
+tmp/miniprofiler/
