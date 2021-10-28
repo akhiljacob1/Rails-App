@@ -6,8 +6,9 @@
   %body
     %h3 Book reviews
     .new-review
-      = link_to "Sign out", destroy_user_session_path, class: "nav-link", |
-      method: :delete                                                   |
+      .btn
+        = link_to "Sign out", destroy_user_session_path, class: "name-link", |
+        method: :delete                                                   |
       .btn
         = link_to "New book review", search_path, class: "name-link"
     .review-container
