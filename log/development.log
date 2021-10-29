@@ -30091,4 +30091,3 @@ puma (5.5.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
 puma (5.5.2) lib/puma/request.rb:76:in `handle_request'
 puma (5.5.2) lib/puma/server.rb:447:in `process_client'
 puma (5.5.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
-  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
